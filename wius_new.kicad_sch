@@ -1,0 +1,1200 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8543d6cf-82a6-4fc5-8760-a0773a1d6e4c")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 129.54 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eca4dbc-0f78-432e-af56-2c74a79013e4")
+	)
+	(junction
+		(at 181.61 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d46b125f-4439-463b-a264-b04c2d7fc57d")
+	)
+	(junction
+		(at 185.42 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de6ae83c-dea8-4348-a5a7-8d0fede06a88")
+	)
+	(no_connect
+		(at 124.46 33.02)
+		(uuid "198903e3-1585-4f77-aaae-1d8dbf5369ac")
+	)
+	(no_connect
+		(at 124.46 90.17)
+		(uuid "5ee0989f-4096-49c3-86db-523339a5cba8")
+	)
+	(no_connect
+		(at 124.46 86.36)
+		(uuid "9e01dafa-3f27-4ad0-874b-dd9a39652e23")
+	)
+	(no_connect
+		(at 124.46 30.48)
+		(uuid "a01bd92e-2ae7-4375-bdc8-fbe3d100671d")
+	)
+	(wire
+		(pts
+			(xy 177.8 82.55) (xy 187.96 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079c4ddd-cdaf-4520-a494-5c4a8ee0ec94")
+	)
+	(bus
+		(pts
+			(xy 132.08 161.29) (xy 181.61 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3acef4-d3ad-480f-acd2-34c5b85d251a")
+	)
+	(bus
+		(pts
+			(xy 181.61 137.16) (xy 181.61 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "186daba2-4d7e-4bc5-b6c1-b6f3ccf705bb")
+	)
+	(wire
+		(pts
+			(xy 124.46 22.86) (xy 134.62 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab6aec8-3fda-4ef4-99c6-1ffcef90d654")
+	)
+	(wire
+		(pts
+			(xy 177.8 85.09) (xy 187.96 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f829495-7e3f-43e5-be26-283c153e66b3")
+	)
+	(wire
+		(pts
+			(xy 177.8 151.13) (xy 187.96 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1febe3b0-4311-4f3a-86e5-aad91d9c8845")
+	)
+	(bus
+		(pts
+			(xy 187.96 104.14) (xy 185.42 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28559a9b-d0b4-4df6-bbdf-c1ae3b40ac09")
+	)
+	(bus
+		(pts
+			(xy 129.54 101.6) (xy 129.54 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a3e3dd4-4c89-45a4-ad9e-d117a64d56e3")
+	)
+	(bus
+		(pts
+			(xy 124.46 124.46) (xy 134.62 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c450861-941a-49c0-991e-9e8b777df6af")
+	)
+	(wire
+		(pts
+			(xy 124.46 25.4) (xy 134.62 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "404b8dbb-6d03-420d-8b07-4056a44284fa")
+	)
+	(bus
+		(pts
+			(xy 177.8 38.1) (xy 187.96 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "468104c8-b20a-4230-84c7-4a6628c3ab3c")
+	)
+	(bus
+		(pts
+			(xy 185.42 165.1) (xy 185.42 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e1c8629-6801-4e80-9ce6-9abf666db15b")
+	)
+	(bus
+		(pts
+			(xy 177.8 91.44) (xy 187.96 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e26fee9-2e0e-4452-b4f7-4e51120c5828")
+	)
+	(bus
+		(pts
+			(xy 124.46 134.62) (xy 129.54 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b1fc27-e1ca-4da0-83ab-659a0bea0844")
+	)
+	(bus
+		(pts
+			(xy 124.46 101.6) (xy 129.54 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56956020-6048-45bb-9883-6485172e2b2f")
+	)
+	(wire
+		(pts
+			(xy 177.8 80.01) (xy 187.96 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "597fe326-eb5d-4e96-b15e-856ec5a82957")
+	)
+	(bus
+		(pts
+			(xy 124.46 139.7) (xy 134.62 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6363db2b-1f8e-44b0-b80d-856a6b3d89c5")
+	)
+	(wire
+		(pts
+			(xy 177.8 77.47) (xy 187.96 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64473f69-0700-41d7-ab09-2374435c1972")
+	)
+	(bus
+		(pts
+			(xy 124.46 129.54) (xy 134.62 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a585632-3e44-42a3-8526-821a94bd9531")
+	)
+	(bus
+		(pts
+			(xy 124.46 40.64) (xy 134.62 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d3d27fd-7d50-4427-978f-79d839c2dd98")
+	)
+	(bus
+		(pts
+			(xy 185.42 132.08) (xy 187.96 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ea27172-6175-44cb-86f9-e215c8c92bb1")
+	)
+	(bus
+		(pts
+			(xy 124.46 149.86) (xy 132.08 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff89046-1baf-4a44-b53f-1409ecb45b72")
+	)
+	(bus
+		(pts
+			(xy 181.61 137.16) (xy 187.96 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dbc2443-807e-4814-b2ec-c158a40535d5")
+	)
+	(wire
+		(pts
+			(xy 124.46 27.94) (xy 134.62 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d15f9ab-8073-4a59-9a47-46a25c8e68e5")
+	)
+	(bus
+		(pts
+			(xy 185.42 104.14) (xy 185.42 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f447726-16aa-4bc0-ba1a-81d08e9ace5c")
+	)
+	(bus
+		(pts
+			(xy 129.54 134.62) (xy 134.62 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f285c4d-68a9-475d-856c-4c90a20c2cbc")
+	)
+	(bus
+		(pts
+			(xy 177.8 132.08) (xy 185.42 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a35602a9-2c3d-4776-acfa-aeb535bfcfac")
+	)
+	(wire
+		(pts
+			(xy 124.46 144.78) (xy 134.62 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b595f345-ac33-4c9e-a215-744ed37cd491")
+	)
+	(bus
+		(pts
+			(xy 132.08 149.86) (xy 132.08 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7117b5-a234-4a1e-97c5-d3ae1bcf7a1f")
+	)
+	(bus
+		(pts
+			(xy 124.46 45.72) (xy 134.62 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e20496da-e840-4553-9eb1-933d4cc4f179")
+	)
+	(bus
+		(pts
+			(xy 177.8 137.16) (xy 181.61 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a326d1-6c1f-4d5d-b725-c864efd23faa")
+	)
+	(wire
+		(pts
+			(xy 177.8 146.05) (xy 187.96 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d68648-b5f1-499e-b586-bf47e2426ba4")
+	)
+	(bus
+		(pts
+			(xy 128.27 154.94) (xy 128.27 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e616b858-d1ce-4b35-887e-e006f4dd223c")
+	)
+	(bus
+		(pts
+			(xy 128.27 165.1) (xy 185.42 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea61c4eb-655b-4510-a34e-3112ef756fc9")
+	)
+	(bus
+		(pts
+			(xy 124.46 154.94) (xy 128.27 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec30baea-ab90-4412-a7b9-a232222fb6b6")
+	)
+	(sheet
+		(at 187.96 121.92)
+		(size 38.1 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "01c89e52-4206-4d65-8f45-b9ccd7362e08")
+		(property "Sheetname" "IMU_SD"
+			(at 187.96 121.2084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals.kicad_sch"
+			(at 187.96 158.0646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_IMU{I2C}" bidirectional
+			(at 187.96 137.16 180)
+			(uuid "c692633a-18a8-44b8-867d-f18a742c0d6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT_IMU" bidirectional
+			(at 187.96 146.05 180)
+			(uuid "b9bc4230-4461-402c-affd-e81fd4edfb9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT_SD" bidirectional
+			(at 187.96 151.13 180)
+			(uuid "4073bc8f-81b3-4b2a-bc05-975d3d9500b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_MCU{SPI}" bidirectional
+			(at 187.96 132.08 180)
+			(uuid "530dfb25-25dd-4ad3-ae73-b926177db943")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 17.78)
+		(size 43.18 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "18cf3453-7c60-4f39-a40f-2a724a0c7370")
+		(property "Sheetname" "DEBUG, RESET & POC_IN, PROGRAMMING INTERFACE"
+			(at 81.28 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "debug_interface.kicad_sch"
+			(at 81.28 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_G" input
+			(at 124.46 30.48 0)
+			(uuid "1a7dce33-195e-40d0-a184-a43c423b47fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_R" input
+			(at 124.46 33.02 0)
+			(uuid "418882af-a30f-4343-8bed-26d7cea83cfe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "POC_IN" output
+			(at 124.46 25.4 0)
+			(uuid "8c173ead-8f4c-4b89-a540-dfe70ca17cba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "POC_OUT" input
+			(at 124.46 27.94 0)
+			(uuid "3fc90976-4c1d-4181-8067-93d539766c3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RESET_MCU" output
+			(at 124.46 22.86 0)
+			(uuid "2f1250f0-255b-40e2-a075-e6ae32030c18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWD_MCU{SWD}" passive
+			(at 124.46 45.72 0)
+			(uuid "d5f12c6c-bfe3-4d76-9627-3821b40280dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_ULP{UART}" passive
+			(at 124.46 40.64 0)
+			(uuid "86d81539-e92a-482c-8e66-275ce5be57d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 68.58)
+		(size 43.18 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "67a9bdbf-e6c1-47b8-846b-b1671c9fd91c")
+		(property "Sheetname" "POWER CONVERSION"
+			(at 81.28 67.8684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_conv.kicad_sch"
+			(at 81.28 107.2646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN_1V8" input
+			(at 124.46 90.17 0)
+			(uuid "8ac986da-ae8f-4078-9ac5-25b342518e3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN_1V8_GAP" input
+			(at 124.46 86.36 0)
+			(uuid "9a919c0f-cadd-43b0-b599-b40d3f075f72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_FG{I2C}" passive
+			(at 124.46 101.6 0)
+			(uuid "e1316815-e802-44f5-bc2e-f77f0586f502")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 17.78)
+		(size 43.18 139.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "93f533c5-fe26-4cf1-a6b2-37346d84bc0c")
+		(property "Sheetname" "MCU"
+			(at 134.62 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 134.62 158.0646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_IMU{I2C}" bidirectional
+			(at 177.8 137.16 0)
+			(uuid "4c403b5a-920e-4d27-b8d4-172f43e1ee74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT_IMU" bidirectional
+			(at 177.8 146.05 0)
+			(uuid "eb869760-f122-4160-966f-e0b5ece5581b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT_SD" bidirectional
+			(at 177.8 151.13 0)
+			(uuid "693fe48f-b3bb-47ea-9a83-8c8f0a189fad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MCU{SPI}" bidirectional
+			(at 177.8 132.08 0)
+			(uuid "47d95053-210b-41fe-9f6b-f56aded453e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_FT232{SPI}" bidirectional
+			(at 177.8 38.1 0)
+			(uuid "bc18a613-3ad7-445f-bfdf-081cdf7dc04a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTRL_FPGA{FPGA}" passive
+			(at 134.62 129.54 180)
+			(uuid "bc8773f5-4254-4565-ad3a-97c77644674c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTRL_PWR{PWR}" passive
+			(at 134.62 139.7 180)
+			(uuid "051b1944-64c3-4b10-a76b-13ab18994dc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GAP_GPIO_0" bidirectional
+			(at 177.8 77.47 0)
+			(uuid "418a4aca-60bc-49e7-9046-9f8c8d2c3a43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GAP_GPIO_1" bidirectional
+			(at 177.8 80.01 0)
+			(uuid "3e2cd22f-d9b5-4d29-80e3-1d7698eb62af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GAP_GPIO_2" bidirectional
+			(at 177.8 82.55 0)
+			(uuid "5bde8bc4-9873-49d6-a155-1f5b169882aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GAP_GPIO_3" bidirectional
+			(at 177.8 85.09 0)
+			(uuid "3c9a18e8-4b56-4ac2-be03-785017af9273")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_FG{I2C}" passive
+			(at 134.62 134.62 180)
+			(uuid "67845d20-7bdc-449a-a51e-6217fb7294dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT_FFC" bidirectional
+			(at 134.62 144.78 180)
+			(uuid "88033545-1925-46f3-a44f-399e5856f9fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_GAP{UART}" passive
+			(at 177.8 91.44 0)
+			(uuid "12a13d2b-5a03-4863-9028-075890b0d298")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_ULP{UART}" passive
+			(at 134.62 40.64 180)
+			(uuid "d6cc2722-16bf-4642-8cc9-cd9b73b37566")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_FPGA{SPI}" bidirectional
+			(at 134.62 124.46 180)
+			(uuid "5f47a367-68fb-4b3c-86a6-c74ca540a454")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POC_IN" input
+			(at 134.62 25.4 180)
+			(uuid "62af7471-1e0e-4b7d-9801-0d110dad18a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POC_OUT" output
+			(at 134.62 27.94 180)
+			(uuid "f489eea1-320c-421e-a6d4-76c8794b7dca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET_MCU" input
+			(at 134.62 22.86 180)
+			(uuid "156b2b8b-5981-49e0-8ebc-d117f5029f4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWD_MCU{SWD}" passive
+			(at 134.62 45.72 180)
+			(uuid "1c06ec3c-53de-4a96-8466-389f38127c0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 121.92)
+		(size 43.18 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b79264b0-e757-45f8-b94f-0c887500aa02")
+		(property "Sheetname" "connectors"
+			(at 81.28 121.2084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 81.28 158.0646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CTRL_FPGA{FPGA}" passive
+			(at 124.46 129.54 0)
+			(uuid "d6c166bc-527f-4a3a-9008-3d68fee27d1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CTRL_PWR{PWR}" passive
+			(at 124.46 139.7 0)
+			(uuid "dcd031f4-e832-4e45-a444-5cc0aef8c6ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_FG{I2C}" passive
+			(at 124.46 134.62 0)
+			(uuid "509f4b3f-94a8-40b0-9102-859e12383bf7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_IMU{I2C}" bidirectional
+			(at 124.46 149.86 0)
+			(uuid "832691d9-43c7-4fea-bd3e-0b649b0e2054")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT_FFC" bidirectional
+			(at 124.46 144.78 0)
+			(uuid "3712135b-f4dd-4cf9-a111-9d1441e2bfbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_FPGA{SPI}" passive
+			(at 124.46 124.46 0)
+			(uuid "fe862659-88bf-4288-904e-14b9ea6e5178")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MCU{SPI}" bidirectional
+			(at 124.46 154.94 0)
+			(uuid "26388c62-5678-487c-8fbb-3eda8159b52b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 68.58)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cf2dec03-48aa-4b6c-b714-7014fc185496")
+		(property "Sheetname" "GAPmod interface"
+			(at 187.96 67.8684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gap.kicad_sch"
+			(at 187.96 107.2646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GAP_GPIO_0" bidirectional
+			(at 187.96 77.47 180)
+			(uuid "73e45907-83e7-4d27-8b2a-84bcdec7df13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GAP_GPIO_1" bidirectional
+			(at 187.96 80.01 180)
+			(uuid "b638c91a-d194-471f-ad90-401e62eb4af6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GAP_GPIO_2" bidirectional
+			(at 187.96 82.55 180)
+			(uuid "8e95d599-1af9-41a4-a5f0-3dc7f55e0f67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GAP_GPIO_3" bidirectional
+			(at 187.96 85.09 180)
+			(uuid "4f118a39-0f42-4bd0-a8df-7426f5b3f7fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_GAP{UART}" passive
+			(at 187.96 91.44 180)
+			(uuid "2980eff9-246f-4210-883c-185e75ba2259")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_MCU{SPI}" passive
+			(at 187.96 104.14 180)
+			(uuid "a6614c5b-fc54-4dcf-9af5-dc8aee628de3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 17.78)
+		(size 38.1 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f56cbe0a-9129-41bf-b268-cb28a87edbe6")
+		(property "Sheetname" "USB_FT232HPQ"
+			(at 187.96 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_&_USB.kicad_sch"
+			(at 187.96 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPI_FT232{SPI}" bidirectional
+			(at 187.96 38.1 180)
+			(uuid "715ff58e-94de-40f7-8384-396350eedb34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

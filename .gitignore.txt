@@ -1,0 +1,49 @@
+# ========================================= #
+#  KiCad 10 .gitignore                      #
+# ========================================= #
+
+# File temporanei e di Auto-salvataggio
+*.bck
+*.tmp
+*~
+_autosave-*
+*.lck
+
+# Cartella dei backup automatici di KiCad
+*-backups/
+
+# Impostazioni dell'interfaccia utente (non servono agli altri)
+*.kicad_prl
+*.kicad_wks
+
+# Cache delle librerie
+fp-info-cache
+
+# File di output dell'autorouter (es. Freerouting)
+*.dsn
+*.ses
+
+# File di simulazione SPICE (opzionali da ignorare)
+*.raw
+*.op.raw
+*.dc.raw
+*.ac.raw
+*.tran.raw
+
+# ========================================= #
+#  Librerie Gestite nel Database Esterno    #
+# ========================================= #
+# Ignoro le cartelle locali di transito per 
+# evitare duplicati con il database su GitHub
+
+3d_model/
+# ========================================= #
+#  Nota per i file di produzione (Gerber)   #
+# ========================================= #
+# Se hai una cartella dedicata per i file di produzione 
+# (Gerber, Drill, BOM) e non vuoi caricarla su Git, 
+# togli il simbolo "#" dalle righe qui sotto:
+
+# Gerbers/
+# Outputs/
+# Production/
