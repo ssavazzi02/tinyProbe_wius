@@ -47,3 +47,5 @@ fp-info-cache
 # Gerbers/
 # Outputs/
 # Production/
+.history/
+wius_new-backups/
