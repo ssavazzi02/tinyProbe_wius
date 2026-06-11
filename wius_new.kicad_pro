@@ -400,6 +400,14 @@
         "+HV",
         "LVDS"
       ],
+      "SDIO": [
+        "CLK",
+        "CMD",
+        "D0",
+        "D1",
+        "D2",
+        "D3"
+      ],
       "SPI": [
         "SCK",
         "MISO",
@@ -459,7 +467,7 @@
         "uuid": "8543d6cf-82a6-4fc5-8760-a0773a1d6e4c"
       }
     ],
-    "used_designators": "IC1,R19,R21-22,R25,R44,J2,J4,J7-8,P1-2,PJ1-2,D1,U3,U6,U10,MP1,L6-9,FB3-6,C46",
+    "used_designators": "IC1,R19,R21-22,R25,R29,R44,J2,J4,J7-8,P1-2,PJ1-2,D1,U3,U6,U9-11,MP1,L6-9,FB3-6,C44,C46-49,#PWR53,#PWR75-76,#PWR90,#PWR98,#PWR107-111",
     "variants": [
       {
         "name": "all_1v8"
@@ -509,6 +517,10 @@
     [
       "67a9bdbf-e6c1-47b8-846b-b1671c9fd91c",
       "POWER CONVERSION"
+    ],
+    [
+      "c23bc3b1-1429-452a-9030-2479b4f99264",
+      "ULP_IO"
     ]
   ],
   "text_variables": {},

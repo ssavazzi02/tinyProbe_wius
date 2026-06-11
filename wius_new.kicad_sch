@@ -23,22 +23,6 @@
 		(color 0 0 0 0)
 		(uuid "de6ae83c-dea8-4348-a5a7-8d0fede06a88")
 	)
-	(no_connect
-		(at 124.46 33.02)
-		(uuid "198903e3-1585-4f77-aaae-1d8dbf5369ac")
-	)
-	(no_connect
-		(at 124.46 90.17)
-		(uuid "5ee0989f-4096-49c3-86db-523339a5cba8")
-	)
-	(no_connect
-		(at 124.46 86.36)
-		(uuid "9e01dafa-3f27-4ad0-874b-dd9a39652e23")
-	)
-	(no_connect
-		(at 124.46 30.48)
-		(uuid "a01bd92e-2ae7-4375-bdc8-fbe3d100671d")
-	)
 	(wire
 		(pts
 			(xy 177.8 82.55) (xy 187.96 82.55)
@@ -98,6 +82,16 @@
 			(type default)
 		)
 		(uuid "1febe3b0-4311-4f3a-86e5-aad91d9c8845")
+	)
+	(wire
+		(pts
+			(xy 124.46 86.36) (xy 134.62 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a8a6b1-9bea-40f9-99eb-97e8d4932474")
 	)
 	(bus
 		(pts
@@ -218,6 +212,16 @@
 			(type default)
 		)
 		(uuid "64473f69-0700-41d7-ab09-2374435c1972")
+	)
+	(wire
+		(pts
+			(xy 124.46 90.17) (xy 134.62 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67942b27-bf05-4c65-bd77-e1311abf8de1")
 	)
 	(bus
 		(pts
@@ -359,6 +363,16 @@
 		)
 		(uuid "e2d68648-b5f1-499e-b586-bf47e2426ba4")
 	)
+	(wire
+		(pts
+			(xy 124.46 33.02) (xy 134.62 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e36120d1-eea7-4647-9985-0584ca89ad6a")
+	)
 	(bus
 		(pts
 			(xy 128.27 154.94) (xy 128.27 165.1)
@@ -388,6 +402,16 @@
 			(type default)
 		)
 		(uuid "ec30baea-ab90-4412-a7b9-a232222fb6b6")
+	)
+	(wire
+		(pts
+			(xy 124.46 30.48) (xy 134.62 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda52755-a855-41be-8fb1-f407c7209d6f")
 	)
 	(sheet
 		(at 187.96 121.92)
@@ -898,6 +922,46 @@
 		(pin "SWD_MCU{SWD}" passive
 			(at 134.62 45.72 180)
 			(uuid "1c06ec3c-53de-4a96-8466-389f38127c0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_G" output
+			(at 134.62 30.48 180)
+			(uuid "fd3cac1c-38d8-4a67-a209-f075964aa258")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_R" output
+			(at 134.62 33.02 180)
+			(uuid "1837f540-8fd7-4151-96a2-ed9047686c90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_1V8" output
+			(at 134.62 90.17 180)
+			(uuid "efde0d38-2103-46ea-af1f-252e6b01d6f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_1V8_GAP" output
+			(at 134.62 86.36 180)
+			(uuid "ee264a7d-8616-488b-886c-55fd49e61e81")
 			(effects
 				(font
 					(size 1.27 1.27)
