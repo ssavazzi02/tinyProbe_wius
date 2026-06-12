@@ -4378,6 +4378,27 @@
 		)
 		(uuid "a5f12356-20d2-4b0e-b23d-138fe8d6b1a7")
 	)
+	(text_box "this sheet can be removed/set apart for now"
+		(exclude_from_sim no)
+		(at 82.55 17.78 0)
+		(size 130.81 44.45)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 153 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a9f2db93-7597-4759-b874-a5a56efb225c")
+	)
 	(junction
 		(at 233.68 91.44)
 		(diameter 0)

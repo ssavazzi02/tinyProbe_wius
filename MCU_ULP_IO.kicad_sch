@@ -2202,6 +2202,27 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "NEEDS to be attached to 32.768 kHz lvcmos clock (SIT1552AI-JE-DCC-32.768E\n)"
+		(exclude_from_sim no)
+		(at 177.8 91.44 0)
+		(size 31.75 14.2494)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 153 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2d4c2923-0b18-40f2-826d-5f4126191082")
+	)
 	(junction
 		(at 116.84 55.88)
 		(diameter 0)

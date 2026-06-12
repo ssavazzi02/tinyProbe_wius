@@ -2063,6 +2063,48 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "change to 1.8V"
+		(exclude_from_sim no)
+		(at 53.34 41.91 0)
+		(size 46.99 24.13)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 153 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0a3fc80f-29e4-42b4-9e25-c56435a203c5")
+	)
+	(text_box "Use gpio expander to select between using net for usb or SD card. reason: usb and SD will never be used at the same time. \n\nAdd level shifter: example TXB0104RUTR \npin to pin compatible with TXB0604 if wifi system voltage is held below 2V."
+		(exclude_from_sim no)
+		(at 26.67 161.29 0)
+		(size 46.99 24.13)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 153 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ea043014-5dc6-47c3-aecf-c1e5dcb24aa1")
+	)
 	(junction
 		(at 52.07 162.56)
 		(diameter 0)
