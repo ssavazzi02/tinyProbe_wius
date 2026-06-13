@@ -3590,6 +3590,50 @@
 		)
 		(uuid "1922858f-ab17-4876-b0c8-f864bd24b9ff")
 	)
+	(text_box "Add reset button? "
+		(exclude_from_sim no)
+		(at 35.56 123.19 0)
+		(size 34.29 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 153 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "1bbf56c6-216b-436e-9e89-72f390122ef2")
+	)
+	(text_box "Add small header pins for uart (tbd: space needed)"
+		(exclude_from_sim no)
+		(at 191.77 80.01 0)
+		(size 34.29 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 153 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "21fff140-182a-4992-b86f-f07447114360")
+	)
 	(text_box "SOURCE: https://www.silabs.com/documents/public/data-sheets/siwg917-datasheet.pdf PAGE 102\n\nThe IC generates a POC (Power On Control) signal - POC_OUT that is distributed to all I/O cells to prevent the I/O cells from powering up in an undesired configuration and is also used inside the IC to safe state the IC till a valid supply is available for proper operation. This power management is functional in both power up and power down sequences.\nDuring power up, until the UULP_VBATT_1 and UULP_VBATT_2 (VBATT supply) reach 1.6V, the POC_OUT signal stays low. Once the VBATT supply exceeds 1.6V, the POC_OUT becomes high and normal operation of the IC starts.\nOnce the POC_OUT becomes high, it stays high. But if VBATT becomes lower than the Blackout threshold voltage, POC_OUT becomes low.\nThe following figure illustrates the power up sequence when POC_OUT is connected to POC_IN. As shown in the figure below, the RESET_N is high at least 1.6ms after VBATT supply is stable. The RESET_N signal can be controlled via options like an R/C circuit or another MCU's GPIO."
 		(exclude_from_sim no)
 		(at 15.24 15.24 0)
@@ -3614,8 +3658,8 @@
 	)
 	(text_box "ISP\n\nTo go into ISP mode, press the ISP button, and while holding down the ISP button, press and release the RESET button and release the ISP button."
 		(exclude_from_sim no)
-		(at 238.76 101.6 0)
-		(size -53.34 15.24)
+		(at 185.42 101.6 0)
+		(size 53.34 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

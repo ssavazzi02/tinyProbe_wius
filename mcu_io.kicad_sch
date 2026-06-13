@@ -1346,6 +1346,61 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -18.542 16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PCAL6408AHK"
+				(at -18.542 14.224 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:UQFN-16_1.8x2.6mm_P0.4mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.it/datasheet/3/118/1/PCAL6408A.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Low-Voltage Translating, 8-Bit I2C-Bus/SMBus I/O Expander"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Supply" "1.65V-5.5V"
 				(at 0 0 0)
 				(show_name no)
@@ -1446,61 +1501,6 @@
 				)
 			)
 			(property "Comment" "~"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Reference" "U"
-				(at -18.542 16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "PCAL6408AHK"
-				(at -18.542 14.224 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_DFN_QFN:UQFN-16_1.8x2.6mm_P0.4mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.it/datasheet/3/118/1/PCAL6408A.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Low-Voltage Translating, 8-Bit I2C-Bus/SMBus I/O Expander"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2155,6 +2155,59 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -15.24 35.56 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SiWG917Y"
+				(at -14.986 33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "dz_mcu:SiWG917Y"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.silabs.com/documents/public/data-sheets/siwg917y-datasheet.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MCU Module Wi-Fi6+BLE5.4 ARM Cortex-M4 180MHz 8MB Flash 320KB RAM PCB-Module"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Temp Range" "-40°C to +85°C"
 				(at 0 0 0)
 				(show_name no)
@@ -2354,59 +2407,6 @@
 				)
 			)
 			(property "SPN" "~"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Reference" "U"
-				(at -15.24 35.56 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SiWG917Y"
-				(at -14.986 33.02 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "dz_mcu:SiWG917Y"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.silabs.com/documents/public/data-sheets/siwg917y-datasheet.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "MCU Module Wi-Fi6+BLE5.4 ARM Cortex-M4 180MHz 8MB Flash 320KB RAM PCB-Module"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4070,6 +4070,27 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "remove buffer as the level shifter already cleans the signals"
+		(exclude_from_sim no)
+		(at 109.22 130.81 0)
+		(size 26.67 14.2494)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 153 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "feaa5cf7-7915-407c-9335-709ce996a051")
+	)
 	(junction
 		(at 43.18 52.07)
 		(diameter 0)
@@ -4229,7 +4250,7 @@
 		(uuid "b63b2d62-972f-493b-884e-e78a322a5d41")
 	)
 	(bus_entry
-		(at 38.1 76.2)
+		(at 31.75 76.2)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -4247,7 +4268,7 @@
 		(uuid "bcffcb7c-ed24-4ef1-9426-4858a532396f")
 	)
 	(bus_entry
-		(at 38.1 73.66)
+		(at 31.75 73.66)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -4321,7 +4342,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 114.3) (xy 55.88 114.3)
+			(xy 30.48 114.3) (xy 48.26 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4501,7 +4522,7 @@
 	)
 	(bus
 		(pts
-			(xy 35.56 71.12) (xy 31.75 71.12)
+			(xy 29.21 71.12) (xy 25.4 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4521,7 +4542,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 109.22) (xy 55.88 109.22)
+			(xy 30.48 109.22) (xy 48.26 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4591,7 +4612,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 76.2) (xy 55.88 76.2)
+			(xy 31.75 76.2) (xy 49.53 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4701,7 +4722,7 @@
 	)
 	(bus
 		(pts
-			(xy 35.56 73.66) (xy 35.56 71.12)
+			(xy 29.21 73.66) (xy 29.21 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4731,7 +4752,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 73.66) (xy 55.88 73.66)
+			(xy 31.75 73.66) (xy 49.53 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4801,7 +4822,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 106.68) (xy 55.88 106.68)
+			(xy 30.48 106.68) (xy 48.26 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5001,7 +5022,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 111.76) (xy 55.88 111.76)
+			(xy 30.48 111.76) (xy 48.26 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5230,7 +5251,7 @@
 		(uuid "2ae7c64f-3c97-4eb6-a1f4-c9154e9bc8ba")
 	)
 	(label "GAP_GPIO_1"
-		(at 41.91 106.68 0)
+		(at 34.29 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5240,7 +5261,7 @@
 		(uuid "34791713-7133-44f9-a3d9-1d38e6b4a172")
 	)
 	(label "GAP_GPIO_0"
-		(at 41.91 114.3 0)
+		(at 34.29 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5270,7 +5291,7 @@
 		(uuid "4bbb06ea-00aa-4f4c-a646-1c58b8033afd")
 	)
 	(label "UART_GAP.RX"
-		(at 41.91 73.66 0)
+		(at 35.56 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5290,7 +5311,7 @@
 		(uuid "66db8cf1-6639-4585-a3cb-bd34c580e81b")
 	)
 	(label "GAP_GPIO_3"
-		(at 41.91 109.22 0)
+		(at 34.29 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5400,7 +5421,7 @@
 		(uuid "c2731cc5-23df-40df-95f3-8bcdde063afb")
 	)
 	(label "GAP_GPIO_2"
-		(at 41.91 111.76 0)
+		(at 34.29 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5440,7 +5461,7 @@
 		(uuid "f4c58a1a-5ee1-4daa-87d4-fd3a92624f25")
 	)
 	(label "UART_GAP.TX"
-		(at 41.91 76.2 0)
+		(at 35.56 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5483,7 +5504,7 @@
 	)
 	(hierarchical_label "GAP_GPIO_0"
 		(shape bidirectional)
-		(at 38.1 114.3 180)
+		(at 30.48 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5494,7 +5515,7 @@
 	)
 	(hierarchical_label "GAP_GPIO_3"
 		(shape bidirectional)
-		(at 38.1 109.22 180)
+		(at 30.48 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5516,7 +5537,7 @@
 	)
 	(hierarchical_label "GAP_GPIO_2"
 		(shape bidirectional)
-		(at 38.1 111.76 180)
+		(at 30.48 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5527,7 +5548,7 @@
 	)
 	(hierarchical_label "GAP_GPIO_1"
 		(shape bidirectional)
-		(at 38.1 106.68 180)
+		(at 30.48 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5560,7 +5581,7 @@
 	)
 	(hierarchical_label "UART_GAP{UART}"
 		(shape passive)
-		(at 31.75 71.12 180)
+		(at 25.4 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
