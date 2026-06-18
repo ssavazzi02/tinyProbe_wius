@@ -140,7 +140,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.15,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -153,9 +153,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -691,8 +691,7 @@
         "uuid": "8543d6cf-82a6-4fc5-8760-a0773a1d6e4c"
       }
     ],
-
-    "used_designators": "#FLG9,J9,#PWR79,C114-115,FB2",
+    "used_designators": "J5,R12-14,R31,R35,#FLG1,#FLG3-10,#PWR43,#PWR81-82,#PWR87-88",
     "variants": [
       {
         "name": "all_1v8"
@@ -734,10 +733,6 @@
     [
       "18cf3453-7c60-4f39-a40f-2a724a0c7370",
       "DEBUG, RESET & POC_IN, PROGRAMMING INTERFACE"
-    ],
-    [
-      "cf2dec03-48aa-4b6c-b714-7014fc185496",
-      "GAPmod interface"
     ],
     [
       "67a9bdbf-e6c1-47b8-846b-b1671c9fd91c",

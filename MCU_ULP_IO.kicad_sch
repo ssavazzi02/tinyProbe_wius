@@ -281,6 +281,348 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "#dzdb:s_clk/XTL-SI-SIT1552-32.768kHz"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at -9.906 9.144 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SIT1552AI-JE-DCC-32.768E"
+				(at -10.668 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "dz_sens:SIT1552AIJEDCC32768E"
+				(at 29.21 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.it/datasheet/3/708/1/SiT1552_datasheet.pdf"
+				(at 29.21 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "MEMS Oscillator TCXO 32.768kHz LVCMOS 1.5V-3.63V 1.5x0.8mm"
+				(at 4.064 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supply" "1.5V-3.63V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "1508 CSP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Frequency" "32.768kHz"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "SPN" "788-1552AIJEDCC32.7E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Comment" "Active; Ultra-low power MEMS 1uA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C7464055"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "Mouser"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "SIT1552AI-JE-DCC-32.768E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "SiTime"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "TCXO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "IPN" "XTL-SI-SIT1552-32.768kHz"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.6"
+				(at 29.21 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "788-1552AIJEDCC32.7E"
+				(at 29.21 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SiTime/SIT1552AI-JE-DCC-32.768E?qs=RHLK7eRW6AG4PWfsTyJILQ%3D%3D"
+				(at 29.21 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "SiTime"
+				(at 29.21 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SIT1552AI-JE-DCC-32.768E"
+				(at 29.21 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "ki_fp_filters" "dz_sens:SIT1552AIJEDCC32768E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "s_clk/XTL-SI-SIT1552-32.768kHz_1_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "CLK_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "#dzdb:s_mcu/M-SILABS-SiWG917Y"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2086,6 +2428,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+BATT"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2202,9 +2683,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "is it okay to bring it on ulp from uulp interface?\n"
+		(exclude_from_sim no)
+		(at 70.358 77.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eda034d5-2d81-4ca7-af90-ae810db9c28a")
+	)
 	(text_box "NEEDS to be attached to 32.768 kHz lvcmos clock (SIT1552AI-JE-DCC-32.768E\n)"
 		(exclude_from_sim no)
-		(at 177.8 91.44 0)
+		(at 243.84 93.98 0)
 		(size 31.75 14.2494)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2213,7 +2704,7 @@
 		)
 		(fill
 			(type color)
-			(color 255 153 0 1)
+			(color 255 252 33 1)
 		)
 		(effects
 			(font
@@ -2231,7 +2722,7 @@
 	)
 	(no_connect
 		(at 185.42 88.9)
-		(uuid "47e70ec2-6675-41fc-ac48-8c89bec05add")
+		(uuid "ee219f4b-d075-4ebb-8dd0-6f1a4646fee6")
 	)
 	(bus_entry
 		(at 232.41 27.94)
@@ -2250,15 +2741,6 @@
 			(type default)
 		)
 		(uuid "1bd5db6e-d82f-4355-b5ce-1f4cc1d49795")
-	)
-	(bus_entry
-		(at 107.95 78.74)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d59ca99-dd48-4fec-bb20-9bdead241038")
 	)
 	(bus_entry
 		(at 232.41 20.32)
@@ -2295,15 +2777,6 @@
 			(type default)
 		)
 		(uuid "67ef1668-4c9a-43ff-b510-3ba75833e2b3")
-	)
-	(bus_entry
-		(at 107.95 76.2)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "898fe300-0275-4ab3-80c5-989876af8ec6")
 	)
 	(bus_entry
 		(at 232.41 43.18)
@@ -2371,15 +2844,15 @@
 		)
 		(uuid "091b2775-d38b-4109-a688-12600c2fc587")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 105.41 78.74) (xy 101.6 78.74)
+			(xy 231.14 99.06) (xy 231.14 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "129a25c6-eeaa-44eb-bc3c-04f50b90e427")
+		(uuid "0aaa2af5-d976-46f2-9f3e-ed0afa71d37f")
 	)
 	(wire
 		(pts
@@ -2413,6 +2886,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 74.93) (xy 128.27 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21f34902-c965-424b-af49-efc68b5658ac")
+	)
+	(wire
+		(pts
 			(xy 232.41 27.94) (xy 199.39 27.94)
 		)
 		(stroke
@@ -2433,6 +2916,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 93.98) (xy 231.14 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3364717b-c95f-470a-b69a-165c1e481fc6")
+	)
+	(wire
+		(pts
 			(xy 232.41 20.32) (xy 199.39 20.32)
 		)
 		(stroke
@@ -2440,6 +2933,16 @@
 			(type default)
 		)
 		(uuid "35396d27-c076-48e3-97c4-a69b25af72ba")
+	)
+	(wire
+		(pts
+			(xy 120.65 78.74) (xy 130.81 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccbf137-b38a-4c26-83ed-c18a7c212c73")
 	)
 	(wire
 		(pts
@@ -2461,6 +2964,16 @@
 		)
 		(uuid "59d7f2e0-eefb-4989-ae9c-d665cc8139af")
 	)
+	(wire
+		(pts
+			(xy 128.27 76.2) (xy 130.81 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6432d7a1-592f-467b-ac92-d2320bb0e487")
+	)
 	(bus
 		(pts
 			(xy 114.3 86.36) (xy 107.95 86.36)
@@ -2480,6 +2993,16 @@
 			(type default)
 		)
 		(uuid "66f65aa4-7135-4b0e-a239-69b4ba8e094c")
+	)
+	(wire
+		(pts
+			(xy 240.03 87.63) (xy 240.03 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c1a3b45-d4ea-452f-8890-b063b70e06a5")
 	)
 	(wire
 		(pts
@@ -2513,16 +3036,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 93.98) (xy 185.42 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91979d38-5b2c-487c-a734-896c1d9dc4b4")
-	)
-	(wire
-		(pts
 			(xy 120.65 106.68) (xy 130.81 106.68)
 		)
 		(stroke
@@ -2533,6 +3046,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 93.98) (xy 200.66 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a37e0dbe-4ece-4886-a620-346233548182")
+	)
+	(wire
+		(pts
 			(xy 120.65 104.14) (xy 130.81 104.14)
 		)
 		(stroke
@@ -2540,16 +3063,6 @@
 			(type default)
 		)
 		(uuid "aad50cdf-0f31-48b4-9816-846a1b8866ab")
-	)
-	(wire
-		(pts
-			(xy 107.95 78.74) (xy 130.81 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0e0a223-54d3-433f-b30b-56744ce3b221")
 	)
 	(wire
 		(pts
@@ -2570,16 +3083,6 @@
 			(type default)
 		)
 		(uuid "b8be7e35-ed74-4fc4-9c46-c1b51203b438")
-	)
-	(bus
-		(pts
-			(xy 105.41 73.66) (xy 105.41 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9d56c54-75ec-4955-b1c0-82f9d599fb2b")
 	)
 	(wire
 		(pts
@@ -2603,6 +3106,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 74.93) (xy 128.27 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6339d38-4cfc-4d3c-96fc-9e5a29b1c387")
+	)
+	(wire
+		(pts
 			(xy 232.41 45.72) (xy 199.39 45.72)
 		)
 		(stroke
@@ -2623,16 +3136,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 76.2) (xy 130.81 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3c2e163-531f-44f3-9ed3-c0f9bd0ab5db")
-	)
-	(wire
-		(pts
 			(xy 116.84 55.88) (xy 130.81 55.88)
 		)
 		(stroke
@@ -2640,6 +3143,16 @@
 			(type default)
 		)
 		(uuid "e4139db7-26df-4893-99e3-0718a3e18f14")
+	)
+	(wire
+		(pts
+			(xy 200.66 99.06) (xy 200.66 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e466ea61-20a4-4d3b-91bb-eaa8a63b11fc")
 	)
 	(wire
 		(pts
@@ -2721,16 +3234,6 @@
 		)
 		(uuid "6a892220-355b-4c4b-9935-8d33b8050565")
 	)
-	(label "I2C_FG.SCL"
-		(at 111.76 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c24db63-a5cd-4f2f-b70f-a0e662347382")
-	)
 	(label "CTRL_PWR.+HV"
 		(at 120.65 101.6 180)
 		(effects
@@ -2782,12 +3285,12 @@
 		(uuid "ae773a95-21a9-45f1-a7bc-2521bb8c1313")
 	)
 	(label "CTRL_FPGA.EXT_INT_MUX"
-		(at 185.42 93.98 0)
+		(at 120.65 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b78fe52c-a541-4131-8448-2e69f52d4da4")
 	)
@@ -2841,16 +3344,6 @@
 		)
 		(uuid "e72fa304-5f41-43b8-85d8-9ef9285cbce7")
 	)
-	(label "I2C_FG.SDA"
-		(at 111.76 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f0d6180f-0f80-4da8-b877-68cc7bcfa9d8")
-	)
 	(label "UART_ULP.TX"
 		(at 118.11 83.82 0)
 		(effects
@@ -2871,16 +3364,16 @@
 		)
 		(uuid "fcac8771-cfd6-4c55-b30d-2d1934f04f97")
 	)
-	(hierarchical_label "I2C_FG{I2C}"
-		(shape passive)
-		(at 101.6 78.74 180)
+	(hierarchical_label "BATT_SENSE"
+		(shape bidirectional)
+		(at 110.49 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "291edc5d-7337-4155-b9d0-b2c773797c21")
+		(uuid "13fd70db-5580-442d-8d6b-e27ef6dc1c77")
 	)
 	(hierarchical_label "CTRL_PWR{PWR}"
 		(shape passive)
@@ -2914,6 +3407,84 @@
 			(justify left)
 		)
 		(uuid "5a13e052-d661-408a-a175-60fd1b05d40e")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ab3dacb-1352-46e3-a2aa-da5a65f93080")
+		(property "Reference" "#PWR0123"
+			(at 231.14 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb80cde0-b910-418b-97a2-d233c59864bf")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/93f533c5-fe26-4cf1-a6b2-37346d84bc0c/c23bc3b1-1429-452a-9030-2479b4f99264"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -3084,7 +3655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ae81264-2a9d-42ee-8394-9b0c56e6c771")
-		(property "Reference" "U11"
+		(property "Reference" "U3"
 			(at 151.13 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3562,8 +4133,433 @@
 		(instances
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/93f533c5-fe26-4cf1-a6b2-37346d84bc0c/c23bc3b1-1429-452a-9030-2479b4f99264"
-					(reference "U11")
+					(reference "U3")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:s_clk/XTL-SI-SIT1552-32.768kHz")
+		(at 215.9 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56c50997-1f8b-4155-9ec6-385c2eb15e54")
+		(property "Reference" "Y1"
+			(at 215.9 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SIT1552AI-JE-DCC-32.768E"
+			(at 215.9 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dz_sens:SIT1552AIJEDCC32768E"
+			(at 245.11 191.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.it/datasheet/3/708/1/SiT1552_datasheet.pdf"
+			(at 245.11 291.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MEMS Oscillator TCXO 32.768kHz LVCMOS 1.5V-3.63V 1.5x0.8mm"
+			(at 219.964 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supply" "1.5V-3.63V"
+			(at 215.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "1508 CSP"
+			(at 215.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Frequency" "32.768kHz"
+			(at 215.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "788-1552AIJEDCC32.7E"
+			(at 215.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "Active; Ultra-low power MEMS 1uA"
+			(at 215.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7464055"
+			(at 215.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 215.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SIT1552AI-JE-DCC-32.768E"
+			(at 215.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SiTime"
+			(at 215.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "TCXO"
+			(at 215.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "XTL-SI-SIT1552-32.768kHz"
+			(at 215.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.6"
+			(at 245.11 491.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "788-1552AIJEDCC32.7E"
+			(at 245.11 591.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SiTime/SIT1552AI-JE-DCC-32.768E?qs=RHLK7eRW6AG4PWfsTyJILQ%3D%3D"
+			(at 245.11 691.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "SiTime"
+			(at 245.11 791.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SIT1552AI-JE-DCC-32.768E"
+			(at 245.11 891.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3"
+			(uuid "f5a0a418-93d9-4d3c-914a-37b23d95d561")
+		)
+		(pin "1"
+			(uuid "b1b6b0cb-5543-468e-a960-2c89ae4eeb37")
+		)
+		(pin "2"
+			(uuid "a51830e6-d41e-4df1-bd15-7757a69d7597")
+		)
+		(pin "4"
+			(uuid "c2d5d325-838e-4058-8261-e2f19aa76e1f")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/93f533c5-fe26-4cf1-a6b2-37346d84bc0c/c23bc3b1-1429-452a-9030-2479b4f99264"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b313fba-c09e-4e0e-ae74-2db0e03fc2d1")
+		(property "Reference" "#PWR0122"
+			(at 200.66 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82ee6052-d1f7-4ecc-84d1-12d759b81d37")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/93f533c5-fe26-4cf1-a6b2-37346d84bc0c/c23bc3b1-1429-452a-9030-2479b4f99264"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 240.03 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e3945f21-129d-45a4-afc6-ccfa6c1d668e")
+		(property "Reference" "#PWR0124"
+			(at 240.03 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3_VBUS"
+			(at 235.712 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 240.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1386477-dc7e-4386-a1a0-4ec906be8f5a")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/93f533c5-fe26-4cf1-a6b2-37346d84bc0c/c23bc3b1-1429-452a-9030-2479b4f99264"
+					(reference "#PWR0124")
+					(unit 1)
 				)
 			)
 		)

@@ -37,6 +37,7 @@ fp-info-cache
 # evitare duplicati con il database su GitHub
 
 3d_model/
+not_used_gapmod/
 # ========================================= #
 #  Nota per i file di produzione (Gerber)   #
 # ========================================= #

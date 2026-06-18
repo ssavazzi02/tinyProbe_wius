@@ -7,13 +7,23 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 214.63 76.2) (xy 223.52 76.2)
+			(xy 214.63 81.28) (xy 223.52 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e2a03a3-8877-4a9c-9e37-72da0db4ee35")
+		(uuid "06303599-e3aa-433d-99c9-4b8967c6f841")
+	)
+	(wire
+		(pts
+			(xy 214.63 64.77) (xy 223.52 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a1d6407-6542-44a7-8692-b07b7fc3ed19")
 	)
 	(wire
 		(pts
@@ -27,16 +37,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 59.69) (xy 223.52 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ca027e2-d6e0-4c4b-b1e3-db3b6e2c062f")
-	)
-	(wire
-		(pts
 			(xy 153.67 38.1) (xy 163.83 38.1)
 		)
 		(stroke
@@ -45,15 +45,15 @@
 		)
 		(uuid "3e0eb6fd-30f5-4efe-994a-f1a29fc5efe7")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 214.63 50.8) (xy 223.52 50.8)
+			(xy 214.63 72.39) (xy 223.52 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b3b79d8-0104-45ab-a643-2f78991960fa")
+		(uuid "4cc763a5-c13c-489e-9aa5-d0b5b197f263")
 	)
 	(wire
 		(pts
@@ -105,6 +105,16 @@
 		)
 		(uuid "6782a45d-fdbf-4018-803e-7061a1ea96f5")
 	)
+	(wire
+		(pts
+			(xy 95.25 127) (xy 104.14 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a50d53-e504-4c72-bfb9-f6c338c52c64")
+	)
 	(bus
 		(pts
 			(xy 214.63 38.1) (xy 223.52 38.1)
@@ -117,13 +127,13 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 73.66) (xy 223.52 73.66)
+			(xy 214.63 77.47) (xy 223.52 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83a37009-5041-431d-b104-35b9e8c12cd7")
+		(uuid "a9c7c35b-04df-45f0-9a62-9b4e37fa0e4a")
 	)
 	(wire
 		(pts
@@ -147,26 +157,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 78.74) (xy 223.52 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7d716a7-6f29-4817-b276-78e9eb025df7")
-	)
-	(wire
-		(pts
-			(xy 214.63 63.5) (xy 223.52 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b801340a-3b4e-466d-bc67-eb5653e7aae9")
-	)
-	(wire
-		(pts
 			(xy 153.67 35.56) (xy 163.83 35.56)
 		)
 		(stroke
@@ -177,16 +167,6 @@
 	)
 	(bus
 		(pts
-			(xy 104.14 128.27) (xy 95.25 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3fa695a-70ad-473c-8c5b-f17862fc1e6d")
-	)
-	(bus
-		(pts
 			(xy 214.63 33.02) (xy 223.52 33.02)
 		)
 		(stroke
@@ -194,16 +174,6 @@
 			(type default)
 		)
 		(uuid "d7a5cc28-105f-438a-b9ec-346cf76fd2cb")
-	)
-	(bus
-		(pts
-			(xy 154.94 54.61) (xy 163.83 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9ed73d4-4d1e-4a02-a8fa-d410459088d7")
 	)
 	(bus
 		(pts
@@ -237,24 +207,13 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 81.28) (xy 223.52 81.28)
+			(xy 214.63 68.58) (xy 223.52 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed85e156-e62e-4eba-978f-98930472ba86")
-	)
-	(hierarchical_label "GAP_GPIO_0"
-		(shape bidirectional)
-		(at 223.52 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1fc6bc89-fd32-4b4c-8c25-b05fef9348fb")
+		(uuid "ed5dc2d7-1310-4933-8820-02d77a694fce")
 	)
 	(hierarchical_label "SWD_MCU{SWD}"
 		(shape passive)
@@ -278,17 +237,6 @@
 		)
 		(uuid "2d5cc60e-5f5e-4397-b486-0c00e91bb869")
 	)
-	(hierarchical_label "GAP_GPIO_3"
-		(shape bidirectional)
-		(at 223.52 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3c5198fa-9c4f-4b7b-9d39-6d81017ecbf4")
-	)
 	(hierarchical_label "INT_FFC"
 		(shape bidirectional)
 		(at 223.52 91.44 0)
@@ -300,38 +248,27 @@
 		)
 		(uuid "3d048d0d-c101-48b7-a10c-07ade6bcd250")
 	)
-	(hierarchical_label "GAP_GPIO_1"
-		(shape bidirectional)
-		(at 223.52 78.74 0)
+	(hierarchical_label "DATA_R_FT"
+		(shape input)
+		(at 223.52 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "4cfd2fb6-b940-458e-88da-43a84cf2faf7")
+		(uuid "54f27284-941a-492f-9cd6-1305d586b76d")
 	)
-	(hierarchical_label "UART_GAP{UART}"
-		(shape passive)
-		(at 154.94 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "562a946c-cbfa-44d7-96aa-3fb03b115abf")
-	)
-	(hierarchical_label "EN_1V8"
+	(hierarchical_label "SD_EN"
 		(shape output)
-		(at 223.52 59.69 0)
+		(at 223.52 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "69a3b6ad-6cc1-481a-8034-c2b14149b6f6")
+		(uuid "6d5e08bd-733c-42a0-8c1f-17d10822aa1d")
 	)
 	(hierarchical_label "I2C_IMU{I2C}"
 		(shape bidirectional)
@@ -343,17 +280,6 @@
 			(justify left)
 		)
 		(uuid "766e8a7c-f9ce-453a-9a0f-246d2b04b575")
-	)
-	(hierarchical_label "I2C_FG{I2C}"
-		(shape passive)
-		(at 104.14 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "84d1f9d0-909c-472c-9a50-13cdee6a37e9")
 	)
 	(hierarchical_label "SPI_MCU{SPI}"
 		(shape bidirectional)
@@ -410,6 +336,28 @@
 		)
 		(uuid "afaa95a9-c931-44e4-a34f-b799cb2bd311")
 	)
+	(hierarchical_label "LD_EN"
+		(shape bidirectional)
+		(at 223.52 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c57548e0-e88e-4eca-8273-07d2b37fb05d")
+	)
+	(hierarchical_label "FT_EN"
+		(shape output)
+		(at 223.52 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c67f6c98-3fab-4c5a-acf6-e7d6a2d7afdd")
+	)
 	(hierarchical_label "CTRL_FPGA{FPGA}"
 		(shape passive)
 		(at 104.14 142.24 0)
@@ -421,16 +369,16 @@
 		)
 		(uuid "ce1ffab8-0eb4-414b-9124-cf7dcc0614b1")
 	)
-	(hierarchical_label "GAP_GPIO_2"
-		(shape bidirectional)
-		(at 223.52 76.2 0)
+	(hierarchical_label "FPGA_EN"
+		(shape output)
+		(at 223.52 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d585514c-3b19-4068-aaa8-f92a433acac5")
+		(uuid "ce8d8106-aa21-4b25-93af-e230027c088d")
 	)
 	(hierarchical_label "SPI_FPGA{SPI}"
 		(shape bidirectional)
@@ -454,27 +402,16 @@
 		)
 		(uuid "da96a64a-d927-4f53-92c7-c6a4cac753b7")
 	)
-	(hierarchical_label "SPI_FT232{SPI}"
+	(hierarchical_label "BATT_SENSE"
 		(shape bidirectional)
-		(at 223.52 50.8 0)
+		(at 104.14 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "e2700c95-c12e-4e94-b5d8-d71dbb5f790b")
-	)
-	(hierarchical_label "EN_1V8_GAP"
-		(shape output)
-		(at 223.52 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e43dd82b-544b-4a98-aa0d-59b6624d9570")
+		(uuid "e4a8bec3-30cb-47e4-8998-fe2053b8d1a1")
 	)
 	(hierarchical_label "INT_IMU"
 		(shape bidirectional)
@@ -547,16 +484,6 @@
 				(justify left top)
 			)
 		)
-		(pin "I2C_FG{I2C}" passive
-			(at 95.25 128.27 0)
-			(uuid "3ef75eda-7ac5-4c5a-9830-54faa3594299")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "UART_ULP{UART}" passive
 			(at 95.25 133.35 0)
 			(uuid "c8d483df-ff08-4b8a-a9f3-b75c53994720")
@@ -580,6 +507,16 @@
 		(pin "CTRL_PWR{PWR}" passive
 			(at 95.25 148.59 0)
 			(uuid "df92fa2b-19b4-4bd0-b28e-2469b3db827a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BATT_SENSE" bidirectional
+			(at 95.25 127 0)
+			(uuid "fa9f5d13-ed9d-4e9f-a605-d4acb94a6441")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -683,89 +620,9 @@
 				(justify right)
 			)
 		)
-		(pin "SPI_FT232{SPI}" bidirectional
-			(at 214.63 50.8 0)
-			(uuid "b777481e-f85e-4fac-b66a-dabf92da6c51")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GAP_GPIO_0" bidirectional
-			(at 214.63 81.28 0)
-			(uuid "93b8511a-89a6-45c6-8619-c707b150fc95")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GAP_GPIO_1" bidirectional
-			(at 214.63 78.74 0)
-			(uuid "5a47da4c-6728-442f-8c31-762e633ffe95")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GAP_GPIO_2" bidirectional
-			(at 214.63 76.2 0)
-			(uuid "ef575d8b-9ce1-4a6b-baee-51f12740839c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GAP_GPIO_3" bidirectional
-			(at 214.63 73.66 0)
-			(uuid "aa170d9d-3630-4427-8c0e-4fb34432a097")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "UART_GAP{UART}" passive
-			(at 163.83 54.61 180)
-			(uuid "0301429f-6b12-42f4-bd80-7f18e6faf90e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SPI_FPGA{SPI}" bidirectional
 			(at 214.63 33.02 0)
 			(uuid "11db087a-c355-415d-a526-bf8c2175dd9b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "EN_1V8" output
-			(at 214.63 59.69 0)
-			(uuid "931f0589-2ba2-405a-bd61-0c6b49da435a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "EN_1V8_GAP" output
-			(at 214.63 63.5 0)
-			(uuid "ccb1a10d-297b-404c-9f8a-45a1940df87d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -791,6 +648,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "DATA_R_FT" input
+			(at 214.63 68.58 0)
+			(uuid "959b33d0-ede1-4288-a2ca-9445bbdace2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_EN" output
+			(at 214.63 72.39 0)
+			(uuid "dd27ffaf-f1e3-4a28-9246-fac595b1f5c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FT_EN" output
+			(at 214.63 77.47 0)
+			(uuid "60f09847-7460-41ff-8192-49b0f91fec11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LD_EN" bidirectional
+			(at 214.63 81.28 0)
+			(uuid "377ef78f-8ea3-4607-9ca1-91eaeef077ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD_EN" output
+			(at 214.63 64.77 0)
+			(uuid "8730ba91-1232-4934-9ac8-a4d17eae13a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

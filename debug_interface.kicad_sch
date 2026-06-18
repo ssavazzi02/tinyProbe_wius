@@ -1386,61 +1386,6 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "PJ"
-				(at 0.254 17.018 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "5051100892"
-				(at 0.254 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "dz_con:CON_5051100892_MOL"
-				(at -3.048 29.972 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/5051103591?display=pdf"
-				(at 0.254 26.162 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" "FFC/FPC (Flat Flexible) Connector Assemblies"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "MPN" "5051100892"
 				(at 0 0 0)
 				(show_name no)
@@ -1519,6 +1464,61 @@
 				)
 			)
 			(property "Comment" "~"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Reference" "PJ"
+				(at 0.254 17.018 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "5051100892"
+				(at 0.254 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "dz_con:CON_5051100892_MOL"
+				(at -3.048 29.972 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/5051103591?display=pdf"
+				(at 0.254 26.162 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" "FFC/FPC (Flat Flexible) Connector Assemblies"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1710,14 +1710,14 @@
 				(pin power_in line
 					(at -10.16 -10.16 0)
 					(length 5.08)
-					(name "MP1"
+					(name "P1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "MP1"
+					(number "P1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1728,14 +1728,14 @@
 				(pin power_in line
 					(at -10.16 -12.7 0)
 					(length 5.08)
-					(name "MP2"
+					(name "P2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "MP2"
+					(number "P2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3452,6 +3452,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+BATT"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -3590,9 +3729,9 @@
 		)
 		(uuid "1922858f-ab17-4876-b0c8-f864bd24b9ff")
 	)
-	(text_box "Add reset button? "
+	(text_box "Add reset button? \nalready implemented in poc_in poc_out configuratio with sw3. poc_in is the master of the reset."
 		(exclude_from_sim no)
-		(at 35.56 123.19 0)
+		(at 73.66 90.17 0)
 		(size 34.29 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3602,7 +3741,7 @@
 		)
 		(fill
 			(type color)
-			(color 255 153 0 1)
+			(color 253 255 49 1)
 		)
 		(effects
 			(font
@@ -3691,6 +3830,12 @@
 		(uuid "55186e4e-3d50-4548-8db2-5ca2da4a8cbf")
 	)
 	(junction
+		(at 254 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "675a7c35-b09e-497e-af7f-044931dda275")
+	)
+	(junction
 		(at 127 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3709,12 +3854,12 @@
 		(uuid "dcf6601c-b9b9-4688-ad2a-3a4f69245df3")
 	)
 	(no_connect
-		(at 256.54 60.96)
-		(uuid "6aedfcff-c894-48ca-9e07-c5afca2f0241")
-	)
-	(no_connect
 		(at 254 68.58)
 		(uuid "77375867-7db8-46e5-9e1e-44b8e05a4559")
+	)
+	(no_connect
+		(at 256.54 60.96)
+		(uuid "7fd7a5e1-5725-4c85-ae65-bf99d85f9373")
 	)
 	(bus_entry
 		(at 229.87 55.88)
@@ -3863,6 +4008,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 139.7) (xy 45.72 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3854e900-b237-4128-ba0c-1fb0e7c21f41")
+	)
+	(wire
+		(pts
 			(xy 99.06 170.18) (xy 106.68 170.18)
 		)
 		(stroke
@@ -3870,6 +4025,16 @@
 			(type default)
 		)
 		(uuid "40a6007b-a304-4c6b-a133-d9a52e3f991c")
+	)
+	(wire
+		(pts
+			(xy 254 73.66) (xy 254 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "414486b0-ad4e-41c4-b94f-3381ff72961f")
 	)
 	(wire
 		(pts
@@ -4000,16 +4165,6 @@
 			(type default)
 		)
 		(uuid "824bc8c9-dd0d-48bb-8b21-30b6c1397850")
-	)
-	(wire
-		(pts
-			(xy 30.48 139.7) (xy 45.72 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8914059b-0f57-4f88-9d8b-ce30891b3e29")
 	)
 	(wire
 		(pts
@@ -73856,6 +74011,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 127 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc4baf31-82e2-4cd0-b880-e8e10ec8e2c8")
+		(property "Reference" "#PWR0114"
+			(at 127 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3_VBUS"
+			(at 122.682 145.796 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 127 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a110cd9-7910-42f3-91de-833911e81955")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/18cf3453-7c60-4f39-a40f-2a724a0c7370"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "#dzdb:g_res/R-280-0402")
 		(at 83.82 170.18 0)
 		(unit 1)
@@ -74315,84 +74548,6 @@
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/18cf3453-7c60-4f39-a40f-2a724a0c7370"
 					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 127 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2bf4459-838f-42ee-91ba-72ecc3de2755")
-		(property "Reference" "#PWR055"
-			(at 127 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 127 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 127 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ebc7fbdc-f2cc-4279-98cf-21d59b9951d3")
-		)
-		(instances
-			(project "wius_new"
-				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/18cf3453-7c60-4f39-a40f-2a724a0c7370"
-					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -75317,10 +75472,10 @@
 		(pin "5"
 			(uuid "945ad9f8-3771-4f66-aed2-47652006b2c1")
 		)
-		(pin "MP1"
+		(pin "P2"
 			(uuid "35f93c8c-db3c-404b-8804-597b0006273d")
 		)
-		(pin "MP2"
+		(pin "P1"
 			(uuid "e34671d5-a713-4723-b4b2-44b803ef5c6f")
 		)
 		(pin "7"
