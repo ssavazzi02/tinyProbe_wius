@@ -17,12 +17,6 @@
 		(color 0 0 0 0)
 		(uuid "2576d604-ba24-4ac2-bfb4-981bb88abcf6")
 	)
-	(junction
-		(at 185.42 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de6ae83c-dea8-4348-a5a7-8d0fede06a88")
-	)
 	(bus
 		(pts
 			(xy 132.08 161.29) (xy 181.61 161.29)
@@ -35,17 +29,7 @@
 	)
 	(bus
 		(pts
-			(xy 77.47 165.1) (xy 185.42 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eef1d19-2243-410f-a69e-20fe9ce7025c")
-	)
-	(bus
-		(pts
-			(xy 182.88 132.08) (xy 185.42 132.08)
+			(xy 182.88 132.08) (xy 187.96 132.08)
 		)
 		(stroke
 			(width 0)
@@ -85,6 +69,36 @@
 	)
 	(bus
 		(pts
+			(xy 77.47 119.38) (xy 134.62 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f53433d-7153-4e1b-9f75-3b410f647965")
+	)
+	(bus
+		(pts
+			(xy 81.28 124.46) (xy 77.47 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ab292f-aee2-4c26-b896-a87be90925aa")
+	)
+	(bus
+		(pts
+			(xy 77.47 119.38) (xy 77.47 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39a13e50-50d8-42c6-a151-07b0f65b66c0")
+	)
+	(bus
+		(pts
 			(xy 124.46 124.46) (xy 134.62 124.46)
 		)
 		(stroke
@@ -112,26 +126,6 @@
 			(type default)
 		)
 		(uuid "4cf4b5e9-3d18-4241-a8ab-e2d32166dc50")
-	)
-	(bus
-		(pts
-			(xy 185.42 165.1) (xy 185.42 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e1c8629-6801-4e80-9ce6-9abf666db15b")
-	)
-	(bus
-		(pts
-			(xy 77.47 153.67) (xy 81.28 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5360d80a-28e2-4db9-8dbb-10f6a1e0fe98")
 	)
 	(bus
 		(pts
@@ -192,16 +186,6 @@
 			(type default)
 		)
 		(uuid "6d3d27fd-7d50-4427-978f-79d839c2dd98")
-	)
-	(bus
-		(pts
-			(xy 185.42 132.08) (xy 187.96 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ea27172-6175-44cb-86f9-e215c8c92bb1")
 	)
 	(bus
 		(pts
@@ -342,26 +326,6 @@
 			(type default)
 		)
 		(uuid "eda52755-a855-41be-8fb1-f407c7209d6f")
-	)
-	(wire
-		(pts
-			(xy 124.46 148.59) (xy 134.62 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb7c083d-0318-4cb9-9305-d3e180db2236")
-	)
-	(bus
-		(pts
-			(xy 77.47 165.1) (xy 77.47 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe819c2c-d825-449c-a473-0d55c030ee78")
 	)
 	(sheet
 		(at 187.96 121.92)
@@ -849,16 +813,6 @@
 				(justify right)
 			)
 		)
-		(pin "LD_EN" bidirectional
-			(at 134.62 148.59 180)
-			(uuid "9b8bb8bd-a26f-47cc-8fd4-fa004e39a92b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SD_EN" output
 			(at 177.8 140.97 0)
 			(uuid "ea6b5ea0-945f-404f-ab00-456c4016aed2")
@@ -872,6 +826,16 @@
 		(pin "BATT_SENSE" bidirectional
 			(at 134.62 76.2 180)
 			(uuid "cb4774cf-f609-4b4b-9d75-e5b0f0fb9846")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ULP_SSI{SPI}" bidirectional
+			(at 134.62 119.38 180)
+			(uuid "44cd6e8a-a7c3-4554-9f8f-bb963c8b4306")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -975,16 +939,6 @@
 				(justify right)
 			)
 		)
-		(pin "SPI_MCU{SPI}" bidirectional
-			(at 81.28 153.67 180)
-			(uuid "26388c62-5678-487c-8fbb-3eda8159b52b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "FPGA_EN" input
 			(at 124.46 134.62 0)
 			(uuid "929f28e2-53f0-4ba5-9b9d-cdea88d2b468")
@@ -995,14 +949,14 @@
 				(justify right)
 			)
 		)
-		(pin "LD_EN" bidirectional
-			(at 124.46 148.59 0)
-			(uuid "eb2541b3-2461-4a5e-9fe8-51bb3921f67e")
+		(pin "ULP_SSI{SPI}" bidirectional
+			(at 81.28 124.46 180)
+			(uuid "8bc1ea7f-7c4d-42f3-8ddb-d1110e0920c7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances

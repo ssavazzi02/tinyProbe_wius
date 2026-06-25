@@ -569,6 +569,59 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100k"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2RKF1003X"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Res 100kΩ 0.1W 0402 Thick Film 1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Power" "0.1W"
 				(at 0 0 0)
 				(show_name no)
@@ -680,59 +733,6 @@
 				)
 			)
 			(property "Comment" "lifecycle=Active; TCR=±100ppm/°C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "100k"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2RKF1003X"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Res 100kΩ 0.1W 0402 Thick Film 1%"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1577,6 +1577,63 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -7.62 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SS5-10-3.00-L-D-K-TR"
+				(at -10.668 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "dz_con:SAMTEC_SS5_10_3.00_X_D_K_XX"
+				(at 1.27 17.526 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.it/datasheet/3/85/1/ss5_xx_x.xx_x_d_k_xr_mkt.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0.50 mm Micro Blade & Beam Low-Profile Socket"
+				(at 1.27 17.526 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
 			(property "SPN" "200-SS5103.00LDKTR"
 				(at 0 0 0)
 				(show_name no)
@@ -1663,63 +1720,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "Reference" "J"
-				(at -7.62 13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "SS5-10-3.00-L-D-K-TR"
-				(at -10.668 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "dz_con:SAMTEC_SS5_10_3.00_X_D_K_XX"
-				(at 1.27 17.526 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.it/datasheet/3/85/1/ss5_xx_x.xx_x_d_k_xr_mkt.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "0.50 mm Micro Blade & Beam Low-Profile Socket"
-				(at 1.27 17.526 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
 				)
 			)
 			(property "MF" "Samtec Inc."
@@ -2549,6 +2549,151 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "#gplm:art/ART-0002-0002"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "g-art:MountingHole_2.4mm_M2_Pad_TopBottom"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole 2.4mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "IPN" "ART-0002-0002"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Comments" "Mounting Hole 2.4mm, 5mm pad, M2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "g-art:MountingHole_2.4mm_M2_Pad_TopBottom"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "art/ART-0002-0002_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "art/ART-0002-0002_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3796,6 +3941,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDA"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GNDA"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GNDA_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDA_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:PWR_FLAG"
 			(power global)
 			(pin_numbers
@@ -3911,16 +4171,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "always on or mcu control it?\n"
-		(exclude_from_sim no)
-		(at 84.074 122.936 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6fc3ec40-027f-475c-9a4a-159362ac0212")
 	)
 	(text "ffc connector\n"
 		(exclude_from_sim no)
@@ -4200,16 +4450,18 @@
 		(uuid "d98e7dfc-2274-4a97-9953-38ddd3862033")
 	)
 	(junction
-		(at 81.28 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e16becdf-eff1-43b9-bbed-5c77e0e04d25")
-	)
-	(junction
 		(at 177.8 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1b2ad60-f628-4a7c-a607-5c2875d6e293")
+	)
+	(no_connect
+		(at 173.99 29.21)
+		(uuid "842f7822-4ff9-480e-a909-29ad81ff9ccf")
+	)
+	(no_connect
+		(at 194.31 29.21)
+		(uuid "a7fd6e15-f990-4c02-89e3-ac5563769232")
 	)
 	(bus_entry
 		(at 147.32 116.84)
@@ -4425,7 +4677,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 138.43) (xy 87.63 138.43)
+			(xy 76.2 138.43) (xy 87.63 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4655,16 +4907,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 138.43) (xy 81.28 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30c25198-fb2f-4d0f-a884-1f998c681351")
-	)
-	(wire
-		(pts
 			(xy 58.42 173.99) (xy 73.66 173.99)
 		)
 		(stroke
@@ -4755,16 +4997,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 147.32) (xy 81.28 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4402a47f-9176-4f71-b6dd-6a16fcaf4a7f")
-	)
-	(wire
-		(pts
 			(xy 76.2 153.67) (xy 58.42 153.67)
 		)
 		(stroke
@@ -4802,16 +5034,6 @@
 			(type default)
 		)
 		(uuid "475905ad-2295-4547-8cd5-58d442412e3d")
-	)
-	(wire
-		(pts
-			(xy 76.2 138.43) (xy 81.28 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "499fbf55-a7e6-45c3-9fbe-b13f7583f792")
 	)
 	(bus
 		(pts
@@ -5125,6 +5347,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 91.44) (xy 246.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e321fbd-ab46-4f71-a1fd-004924d6ab69")
+	)
+	(wire
+		(pts
 			(xy 132.08 184.15) (xy 132.08 187.96)
 		)
 		(stroke
@@ -5182,6 +5414,16 @@
 			(type default)
 		)
 		(uuid "99ccef96-b433-4cda-8bc8-f2a4c62006eb")
+	)
+	(wire
+		(pts
+			(xy 222.25 105.41) (xy 222.25 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aeaf42b-fc96-4d0a-96e5-6278b00d9124")
 	)
 	(wire
 		(pts
@@ -5395,7 +5637,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 106.68) (xy 219.71 106.68)
+			(xy 222.25 105.41) (xy 246.38 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5412,6 +5654,16 @@
 			(type default)
 		)
 		(uuid "cb7a048f-84f8-4904-9889-d4aa04f9ce89")
+	)
+	(wire
+		(pts
+			(xy 246.38 101.6) (xy 246.38 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce8b8dcd-7309-4ef6-8b91-6ebe9c5c292b")
 	)
 	(wire
 		(pts
@@ -5552,6 +5804,16 @@
 			(type default)
 		)
 		(uuid "e0fbde78-f1d0-4568-af80-89904b82cace")
+	)
+	(wire
+		(pts
+			(xy 222.25 106.68) (xy 208.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b48536-27d8-4df4-a3de-c97af3b8ff91")
 	)
 	(wire
 		(pts
@@ -6713,7 +6975,7 @@
 		)
 	)
 	(label "CTRL_FPGA.RESET"
-		(at 144.78 173.99 0)
+		(at 144.78 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6722,7 +6984,7 @@
 		)
 		(uuid "13b3554e-36e6-4f2f-b2b4-4dc97a8a69cd")
 	)
-	(label "SPI_MCU.MOSI"
+	(label "ULP_SSI.MOSI"
 		(at 82.55 68.58 180)
 		(effects
 			(font
@@ -6732,7 +6994,7 @@
 		)
 		(uuid "1d193ff9-f7b2-4a74-9022-855fea44db7b")
 	)
-	(label "SPI_MCU.CS3"
+	(label "ULP_SSI.CS0"
 		(at 82.55 60.96 180)
 		(effects
 			(font
@@ -6743,7 +7005,7 @@
 		(uuid "21b4368f-1dc9-4f48-8859-256fd2865829")
 	)
 	(label "FPGA_INT"
-		(at 107.95 158.75 180)
+		(at 107.95 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6753,7 +7015,7 @@
 		(uuid "264454f4-8428-4421-910a-6fadf10d2c16")
 	)
 	(label "FPGA_CS"
-		(at 33.02 173.99 180)
+		(at 33.02 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6773,7 +7035,7 @@
 		(uuid "4d320e64-8bd6-42ca-bd04-852afe458e9b")
 	)
 	(label "CTRL_FPGA.INT"
-		(at 144.78 158.75 0)
+		(at 144.78 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6783,7 +7045,7 @@
 		(uuid "55be80c0-7f5f-4961-b103-ae55c731c148")
 	)
 	(label "FPGA_MOSI"
-		(at 33.02 163.83 180)
+		(at 33.02 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6803,7 +7065,7 @@
 		(uuid "5bb5e63e-9c89-4e53-933a-23bb53c3ecfc")
 	)
 	(label "CTRL_FPGA.EXT_INT_MUX"
-		(at 144.78 163.83 0)
+		(at 144.78 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6813,7 +7075,7 @@
 		(uuid "645be358-04e4-4649-88b0-1815bbec5453")
 	)
 	(label "FPGA_RESET"
-		(at 107.95 173.99 180)
+		(at 107.95 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6822,7 +7084,7 @@
 		)
 		(uuid "6db71dc8-9415-4d63-881a-c1acd0c9b4e7")
 	)
-	(label "SPI_MCU.MISO"
+	(label "ULP_SSI.MISO"
 		(at 82.55 66.04 180)
 		(effects
 			(font
@@ -6833,7 +7095,7 @@
 		(uuid "72639626-b0d7-4431-a9a9-d7efcfe1dc65")
 	)
 	(label "SPI_FPGA.CS0"
-		(at 73.66 173.99 180)
+		(at 73.66 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6843,7 +7105,7 @@
 		(uuid "74060388-abda-4c28-86be-0299af07210d")
 	)
 	(label "SPI_FPGA.MISO"
-		(at 73.66 168.91 180)
+		(at 73.66 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6903,7 +7165,7 @@
 		(uuid "8abb4042-0899-4572-adaf-46d122be5037")
 	)
 	(label "FPGA_AFE_TX_MUX"
-		(at 107.95 168.91 180)
+		(at 107.95 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6923,7 +7185,7 @@
 		(uuid "95e41b20-6afb-4c5c-a201-e001667ccc80")
 	)
 	(label "CTRL_FPGA.AFE_TX_MUX"
-		(at 144.78 168.91 0)
+		(at 144.78 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6932,8 +7194,8 @@
 		)
 		(uuid "9767b18e-db5c-454e-9b69-3d00e13237cb")
 	)
-	(label "SPI_FPGA.SCLK"
-		(at 73.66 158.75 180)
+	(label "SPI_FPGA.SCK"
+		(at 73.66 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6952,8 +7214,18 @@
 		)
 		(uuid "a2275a1c-375e-4bf1-8a4a-18661c403842")
 	)
+	(label "LD_EN"
+		(at 242.57 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a835d06f-dc84-4bba-98a5-5151c9cc7b14")
+	)
 	(label "FPGA_EXT_INT_MUX"
-		(at 107.95 163.83 180)
+		(at 107.95 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6982,7 +7254,7 @@
 		)
 		(uuid "bfba42e5-2e91-4aed-8d41-9b4bef11b627")
 	)
-	(label "SPI_MCU.SCK"
+	(label "ULP_SSI.SCK"
 		(at 82.55 63.5 180)
 		(effects
 			(font
@@ -6993,7 +7265,7 @@
 		(uuid "d0c49f2c-11d6-498a-86a9-f8b70d1d23d8")
 	)
 	(label "FPGA_MISO"
-		(at 33.02 168.91 180)
+		(at 33.02 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7013,7 +7285,7 @@
 		(uuid "e1ceaf05-f674-44c7-a8de-40fa1be49256")
 	)
 	(label "SPI_FPGA.MOSI"
-		(at 73.66 163.83 180)
+		(at 73.66 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7033,7 +7305,7 @@
 		(uuid "f171f33a-2d8c-4e02-80fc-9749e0ab603c")
 	)
 	(label "FPGA_SCLK"
-		(at 33.02 158.75 180)
+		(at 33.02 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7096,17 +7368,6 @@
 		)
 		(uuid "5bdc9e89-224b-4144-b383-f9f16c93918e")
 	)
-	(hierarchical_label "LD_EN"
-		(shape bidirectional)
-		(at 219.71 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5cc1497b-2461-4dd1-bb0a-2bc53641c2aa")
-	)
 	(hierarchical_label "I2C_IMU{I2C}"
 		(shape bidirectional)
 		(at 86.36 48.26 0)
@@ -7140,7 +7401,7 @@
 		)
 		(uuid "bda498fa-a3a3-4004-a113-e3347c21d4bc")
 	)
-	(hierarchical_label "SPI_MCU{SPI}"
+	(hierarchical_label "ULP_SSI{SPI}"
 		(shape bidirectional)
 		(at 86.36 57.15 0)
 		(effects
@@ -7150,6 +7411,205 @@
 			(justify left)
 		)
 		(uuid "ea3e7dcf-b073-4e26-992d-ff3d4f3a3638")
+	)
+	(symbol
+		(lib_id "#gplm:art/ART-0002-0002")
+		(at 151.13 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00e04a89-779d-445b-816f-45276a70ae86")
+		(property "Reference" "M2"
+			(at 151.13 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 151.13 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dz_mech:MountingHole_2.4mm_M2_Pad_TopBottom"
+			(at 151.13 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole 2.4mm"
+			(at 151.13 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "ART-0002-0002"
+			(at 151.13 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comments" "Mounting Hole 2.4mm, 5mm pad, M2"
+			(at 151.13 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "668c5f4b-66b5-4f02-a214-f3abcc8f3dec")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/b79264b0-e757-45f8-b94f-0c887500aa02"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#gplm:art/ART-0002-0002")
+		(at 194.31 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "07649e4c-0e28-4911-bbde-dc929653166e")
+		(property "Reference" "M4"
+			(at 193.04 19.812 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 186.436 21.844 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "dz_mech:MountingHole_2.4mm_M2_Pad_TopBottom"
+			(at 194.31 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole 2.4mm"
+			(at 194.31 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "ART-0002-0002"
+			(at 194.31 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comments" "Mounting Hole 2.4mm, 5mm pad, M2"
+			(at 194.31 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5383891-2bdf-4fc2-b12e-0ec619544a5e")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/b79264b0-e757-45f8-b94f-0c887500aa02"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7335,6 +7795,84 @@
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/b79264b0-e757-45f8-b94f-0c887500aa02"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 151.13 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "101be9b4-2dc9-482a-9f4e-4cd2ea9624b2")
+		(property "Reference" "#PWR044"
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 151.13 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "efba078b-90ae-4db7-9ed6-8f3a28c77fcc")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/b79264b0-e757-45f8-b94f-0c887500aa02"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -8084,6 +8622,308 @@
 		)
 	)
 	(symbol
+		(lib_id "#gplm:art/ART-0002-0002")
+		(at 173.99 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2edb6524-0548-4c1f-8ae0-0b05e8d09355")
+		(property "Reference" "M3"
+			(at 173.99 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 173.99 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dz_mech:MountingHole_2.4mm_M2_Pad_TopBottom"
+			(at 173.99 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole 2.4mm"
+			(at 173.99 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "ART-0002-0002"
+			(at 173.99 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comments" "Mounting Hole 2.4mm, 5mm pad, M2"
+			(at 173.99 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea54f285-c5f0-42f6-8255-9156ffa82998")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/b79264b0-e757-45f8-b94f-0c887500aa02"
+					(reference "M3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:g_res/R-100k-0402")
+		(at 246.38 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f805ed5-6e7c-48da-83a2-95383302a703")
+		(property "Reference" "R25"
+			(at 248.92 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 248.92 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 244.602 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2RKF1003X"
+			(at 246.38 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Res 100kΩ 0.1W 0402 Thick Film 1%"
+			(at 246.38 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.1W"
+			(at 246.38 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 246.38 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "100k"
+			(at 246.38 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "667-ERJ-2RKF1003X"
+			(at 246.38 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C192169"
+			(at 246.38 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-2RKF1003X"
+			(at 246.38 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 246.38 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 246.38 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "R-100k-0402"
+			(at 246.38 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "Thick Film"
+			(at 246.38 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active; TCR=±100ppm/°C"
+			(at 246.38 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4bb5b6ee-bd1e-4b3f-a836-d5f670ef8959")
+		)
+		(pin "2"
+			(uuid "3f523574-52ed-4d73-ac4e-775ab68a27ef")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/b79264b0-e757-45f8-b94f-0c887500aa02"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "#dzdb:g_cap/C-100n-0603")
 		(at 60.96 142.24 0)
 		(unit 1)
@@ -8741,6 +9581,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 246.38 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ee40db5-bf9d-4018-9d4b-1d1cd16f7d50")
+		(property "Reference" "#PWR0116"
+			(at 246.38 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBATTERY"
+			(at 246.38 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 246.38 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83ae1220-f8b9-4e87-a6ab-04883dad4168")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/b79264b0-e757-45f8-b94f-0c887500aa02"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 115.57 147.32 0)
 		(unit 1)
@@ -8848,7 +9766,7 @@
 				)
 			)
 		)
-		(property "Footprint" "dz_comm:QFN-56_FT232HPQ_FTD"
+		(property "Footprint" "dz_con:SAMTEC_SS5_10_3.00_X_D_K_XX"
 			(at 196.85 86.614 0)
 			(hide yes)
 			(show_name no)
@@ -10554,19 +11472,19 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 81.28 149.86 0)
+		(lib_id "#gplm:art/ART-0002-0002")
+		(at 128.27 26.67 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b66845d4-a8be-44fb-b8c3-a8ef91ba13bc")
-		(property "Reference" "#PWR081"
-			(at 81.28 156.21 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "bb7f1e0d-d84d-47ba-9351-1db9d6f5e112")
+		(property "Reference" "M1"
+			(at 128.27 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10575,8 +11493,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 81.28 154.178 0)
+		(property "Value" "MountingHole_Pad"
+			(at 128.27 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10585,8 +11503,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 81.28 149.86 0)
+		(property "Footprint" "dz_mech:MountingHole_2.4mm_M2_Pad_TopBottom"
+			(at 128.27 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10597,7 +11515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 149.86 0)
+			(at 128.27 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10607,8 +11525,30 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 149.86 0)
+		(property "Description" "Mounting Hole 2.4mm"
+			(at 128.27 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "ART-0002-0002"
+			(at 128.27 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comments" "Mounting Hole 2.4mm, 5mm pad, M2"
+			(at 128.27 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10619,12 +11559,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2df55864-6c47-4ca9-8a39-d2c105cb673c")
+			(uuid "c868b015-f76c-406b-a5c8-e5eba1a2ab66")
 		)
 		(instances
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/b79264b0-e757-45f8-b94f-0c887500aa02"
-					(reference "#PWR081")
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -10894,209 +11834,6 @@
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/b79264b0-e757-45f8-b94f-0c887500aa02"
 					(reference "C114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#dzdb:g_res/R-100k-0402")
-		(at 81.28 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdb9b2a8-4dd6-453d-8aa6-052d8a29c1ff")
-		(property "Reference" "R12"
-			(at 83.82 142.2399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 83.82 144.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 79.502 143.51 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2RKF1003X"
-			(at 81.28 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Res 100kΩ 0.1W 0402 Thick Film 1%"
-			(at 81.28 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "0.1W"
-			(at 81.28 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 81.28 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resistance" "100k"
-			(at 81.28 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SPN" "667-ERJ-2RKF1003X"
-			(at 81.28 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C192169"
-			(at 81.28 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ERJ-2RKF1003X"
-			(at 81.28 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 81.28 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 81.28 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "R-100k-0402"
-			(at 81.28 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Material" "Thick Film"
-			(at 81.28 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "lifecycle=Active; TCR=±100ppm/°C"
-			(at 81.28 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "390d2cd2-e0c8-4b93-ab41-61ef493db5d4")
-		)
-		(pin "2"
-			(uuid "928178d2-bc95-445b-a7a5-4a0487145ff8")
-		)
-		(instances
-			(project "wius_new"
-				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/b79264b0-e757-45f8-b94f-0c887500aa02"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -13023,6 +13760,84 @@
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/b79264b0-e757-45f8-b94f-0c887500aa02"
 					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 128.27 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc1053cb-b847-4348-aa6d-80f54cbc8b85")
+		(property "Reference" "#PWR022"
+			(at 128.27 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 128.27 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 128.27 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15ae1660-aa02-4727-a7d6-dc2804cb0fad")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/b79264b0-e757-45f8-b94f-0c887500aa02"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

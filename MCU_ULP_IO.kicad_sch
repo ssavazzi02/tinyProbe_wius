@@ -2683,16 +2683,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "is it okay to bring it on ulp from uulp interface?\n"
-		(exclude_from_sim no)
-		(at 70.358 77.724 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "eda034d5-2d81-4ca7-af90-ae810db9c28a")
-	)
 	(text_box "NEEDS to be attached to 32.768 kHz lvcmos clock (SIT1552AI-JE-DCC-32.768E\n)"
 		(exclude_from_sim no)
 		(at 243.84 93.98 0)

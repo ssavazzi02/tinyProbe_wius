@@ -2536,7 +2536,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 -22.86 0)
+					(at 20.32 -10.16 180)
 					(length 2.54)
 					(name "GPIO_54"
 						(effects
@@ -2896,7 +2896,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 -10.16 180)
+					(at -20.32 -22.86 0)
 					(length 2.54)
 					(name "GPIO_10"
 						(effects
@@ -3548,12 +3548,8 @@
 		(uuid "8a991fbf-33eb-4577-acbd-bb729b950098")
 	)
 	(no_connect
-		(at 96.52 71.12)
-		(uuid "21a35b7a-ccc4-4751-bbdb-87a4e763e28c")
-	)
-	(no_connect
-		(at 96.52 68.58)
-		(uuid "5c574e1d-289e-477f-acdf-340d2991d687")
+		(at 55.88 114.3)
+		(uuid "04409240-5724-41d1-bc72-ad45988ec4d6")
 	)
 	(no_connect
 		(at 96.52 101.6)
@@ -3562,6 +3558,10 @@
 	(no_connect
 		(at 55.88 96.52)
 		(uuid "77e43e3e-bbe8-4096-8ad1-86fb187bae96")
+	)
+	(no_connect
+		(at 227.33 66.04)
+		(uuid "7a546f8f-76f4-404d-892c-23a5ea625bdc")
 	)
 	(no_connect
 		(at 55.88 76.2)
@@ -3576,20 +3576,21 @@
 		(uuid "a44ccd38-bba9-4db7-ac28-573a71562974")
 	)
 	(no_connect
-		(at 96.52 73.66)
-		(uuid "ab7ef3ea-4f7c-40c8-b3b0-0825fe11fe13")
-	)
-	(no_connect
 		(at 227.33 63.5)
 		(uuid "ac2790a8-94ca-4cc7-aeb4-2c11fa1a8825")
 	)
 	(no_connect
-		(at 96.52 76.2)
-		(uuid "b9dc04ea-3e2a-4abd-81c2-821d41b39929")
-	)
-	(no_connect
 		(at 96.52 96.52)
 		(uuid "f71dba7e-b9aa-4ff9-afee-7dac4712c114")
+	)
+	(bus_entry
+		(at 118.11 68.58)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c170555-a51b-4069-b23e-e2eaf230ba21")
 	)
 	(bus_entry
 		(at 38.1 81.28)
@@ -3601,6 +3602,24 @@
 		(uuid "14f351de-4b04-41de-b01d-ba410943c619")
 	)
 	(bus_entry
+		(at 118.11 73.66)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216a92a7-2d44-4f5b-a8eb-4e0f4daeb6c7")
+	)
+	(bus_entry
+		(at 118.11 76.2)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "243a698e-4203-49f0-b76d-dabf021abcc0")
+	)
+	(bus_entry
 		(at 113.03 91.44)
 		(size -2.54 2.54)
 		(stroke
@@ -3610,13 +3629,13 @@
 		(uuid "27e6a4cb-9f5b-4da8-8ee2-2b8d03342275")
 	)
 	(bus_entry
-		(at 113.03 99.06)
-		(size 2.54 2.54)
+		(at 118.11 71.12)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "375e3127-3541-44db-a74a-bc8e6c545614")
+		(uuid "426081c2-aafd-4d59-86d7-695e38f50830")
 	)
 	(bus_entry
 		(at 184.15 60.96)
@@ -3749,6 +3768,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 68.58) (xy 118.11 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22c62be1-9874-4934-99c1-571a1371f43d")
+	)
+	(wire
+		(pts
 			(xy 96.52 109.22) (xy 100.33 109.22)
 		)
 		(stroke
@@ -3786,16 +3815,6 @@
 			(type default)
 		)
 		(uuid "2ea25692-92b4-4099-a938-08b6e016be15")
-	)
-	(wire
-		(pts
-			(xy 38.1 114.3) (xy 55.88 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b02f2f5-7c99-4703-9b1b-06d326394ee0")
 	)
 	(wire
 		(pts
@@ -3906,6 +3925,16 @@
 			(type default)
 		)
 		(uuid "5cc74647-3531-47bd-b5a2-8a116ad1ce97")
+	)
+	(bus
+		(pts
+			(xy 121.92 64.77) (xy 120.65 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e169bc4-708b-44a2-a1b8-d56b4c740cd5")
 	)
 	(bus
 		(pts
@@ -4147,6 +4176,16 @@
 		)
 		(uuid "c60d25bf-c70d-4d61-8f41-f5b76d1b2d2e")
 	)
+	(bus
+		(pts
+			(xy 120.65 74.93) (xy 120.65 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b75334-f348-41be-aeb9-2e3bbfc72d50")
+	)
 	(wire
 		(pts
 			(xy 107.95 111.76) (xy 152.4 111.76)
@@ -4166,26 +4205,6 @@
 			(type default)
 		)
 		(uuid "de463c4f-0fa6-43c9-97c5-2cb3af3fa313")
-	)
-	(wire
-		(pts
-			(xy 129.54 101.6) (xy 115.57 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df474014-36e4-4678-a504-eccfa41fbd33")
-	)
-	(wire
-		(pts
-			(xy 241.3 66.04) (xy 227.33 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2d1be14-dcd4-42ff-96df-46665c84a21a")
 	)
 	(wire
 		(pts
@@ -4249,6 +4268,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 73.66) (xy 96.52 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d4cc29-0f32-40f7-b532-3a81328e9ce3")
+	)
+	(wire
+		(pts
 			(xy 40.64 83.82) (xy 55.88 83.82)
 		)
 		(stroke
@@ -4256,6 +4285,16 @@
 			(type default)
 		)
 		(uuid "f462e2e2-7f4d-40f6-94d7-e584950ce0e2")
+	)
+	(wire
+		(pts
+			(xy 96.52 76.2) (xy 118.11 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64a8190-0597-4110-a770-958d8e0b7f2a")
 	)
 	(wire
 		(pts
@@ -4267,15 +4306,15 @@
 		)
 		(uuid "fdc0d6b1-166b-4419-84b0-2411e5acce6a")
 	)
-	(label "SPI_MCU.CS3"
-		(at 129.54 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 118.11 71.12) (xy 96.52 71.12)
 		)
-		(uuid "07b895e2-27fa-496d-be37-5421600a6910")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe910e55-e645-4407-b7a7-644ad1b3faf1")
 	)
 	(label "INT_EXP"
 		(at 35.56 93.98 0)
@@ -4307,7 +4346,7 @@
 		)
 		(uuid "2538b20c-8c9f-4e2a-89b7-1e1835eda34a")
 	)
-	(label "SPI_FPGA.SCLK"
+	(label "SPI_FPGA.SCK"
 		(at 135.89 114.3 0)
 		(effects
 			(font
@@ -4367,6 +4406,26 @@
 		)
 		(uuid "6ba0a5a4-4bc5-4c5b-9c4e-5eb056afdd0f")
 	)
+	(label "ULP_SSI.MOSI"
+		(at 118.11 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8837d365-2e97-4f54-b49e-e4f26c63ad96")
+	)
+	(label "ULP_SSI.SCK"
+		(at 118.11 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91d5bd42-02f4-423f-8137-95f449138a2b")
+	)
 	(label "SPI_MCU.MISO"
 		(at 97.79 91.44 0)
 		(effects
@@ -4386,6 +4445,16 @@
 			(justify left bottom)
 		)
 		(uuid "a8a5a8b4-ac87-48e9-ac3a-bd9fcf9623f0")
+	)
+	(label "ULP_SSI.MISO"
+		(at 118.11 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af7d9021-c6b5-453f-afa4-c98ba8fac725")
 	)
 	(label "SPI_FPGA.MOSI"
 		(at 135.89 111.76 0)
@@ -4407,16 +4476,6 @@
 		)
 		(uuid "b203e591-4ab8-40e4-b905-cefbb8ce3b26")
 	)
-	(label "SPI_MCU.CS3"
-		(at 241.3 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c2731cc5-23df-40df-95f3-8bcdde063afb")
-	)
 	(label "SPI_FPGA.MISO"
 		(at 135.89 109.22 0)
 		(effects
@@ -4426,6 +4485,16 @@
 			(justify left bottom)
 		)
 		(uuid "f4c58a1a-5ee1-4daa-87d4-fd3a92624f25")
+	)
+	(label "ULP_SSI.CS0"
+		(at 118.11 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe250e6b-22db-4058-b6f8-33b43fca856a")
 	)
 	(label "SPI_MCU.SCK"
 		(at 97.79 86.36 0)
@@ -4480,17 +4549,6 @@
 			(justify right)
 		)
 		(uuid "37d7d468-a71d-49ac-b1d0-5f84c18e3a14")
-	)
-	(hierarchical_label "LD_EN"
-		(shape bidirectional)
-		(at 38.1 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4236d728-b9db-4dc8-b336-f5ce25ac748b")
 	)
 	(hierarchical_label "INT_FFC"
 		(shape bidirectional)
@@ -4579,6 +4637,17 @@
 			(justify left)
 		)
 		(uuid "df6a8ae6-a161-4b30-ad1e-f6dbc337518c")
+	)
+	(hierarchical_label "ULP_SSI{SPI}"
+		(shape bidirectional)
+		(at 121.92 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e18f38dc-306c-4dc2-b77f-495af5b6bc88")
 	)
 	(hierarchical_label "SPI_FPGA{SPI}"
 		(shape bidirectional)

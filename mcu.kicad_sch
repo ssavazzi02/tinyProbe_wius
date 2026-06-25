@@ -7,16 +7,6 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 214.63 81.28) (xy 223.52 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06303599-e3aa-433d-99c9-4b8967c6f841")
-	)
-	(wire
-		(pts
 			(xy 214.63 64.77) (xy 223.52 64.77)
 		)
 		(stroke
@@ -124,6 +114,16 @@
 			(type default)
 		)
 		(uuid "7361f218-e752-40db-9d88-daedd379fbad")
+	)
+	(bus
+		(pts
+			(xy 214.63 54.61) (xy 223.52 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d8a7b77-40cd-45dd-8d74-ef76487b66f8")
 	)
 	(wire
 		(pts
@@ -270,6 +270,17 @@
 		)
 		(uuid "6d5e08bd-733c-42a0-8c1f-17d10822aa1d")
 	)
+	(hierarchical_label "ULP_SSI{SPI}"
+		(shape bidirectional)
+		(at 223.52 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71773c73-cbe3-421b-a7ad-4719f50ea4ed")
+	)
 	(hierarchical_label "I2C_IMU{I2C}"
 		(shape bidirectional)
 		(at 223.52 45.72 0)
@@ -335,17 +346,6 @@
 			(justify right)
 		)
 		(uuid "afaa95a9-c931-44e4-a34f-b799cb2bd311")
-	)
-	(hierarchical_label "LD_EN"
-		(shape bidirectional)
-		(at 223.52 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c57548e0-e88e-4eca-8273-07d2b37fb05d")
 	)
 	(hierarchical_label "FT_EN"
 		(shape output)
@@ -680,9 +680,9 @@
 				(justify right)
 			)
 		)
-		(pin "LD_EN" bidirectional
-			(at 214.63 81.28 0)
-			(uuid "377ef78f-8ea3-4607-9ca1-91eaeef077ba")
+		(pin "SD_EN" output
+			(at 214.63 64.77 0)
+			(uuid "8730ba91-1232-4934-9ac8-a4d17eae13a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -690,9 +690,9 @@
 				(justify right)
 			)
 		)
-		(pin "SD_EN" output
-			(at 214.63 64.77 0)
-			(uuid "8730ba91-1232-4934-9ac8-a4d17eae13a4")
+		(pin "ULP_SSI{SPI}" bidirectional
+			(at 214.63 54.61 0)
+			(uuid "3b47d592-192f-4edd-a42e-a2dd55ba28cf")
 			(effects
 				(font
 					(size 1.27 1.27)

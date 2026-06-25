@@ -691,7 +691,7 @@
         "uuid": "8543d6cf-82a6-4fc5-8760-a0773a1d6e4c"
       }
     ],
-    "used_designators": "J5,R12-14,R31,R35,#FLG1,#FLG3-10,#PWR43,#PWR81-82,#PWR87-88",
+    "used_designators": "R18",
     "variants": [
       {
         "name": "all_1v8"
