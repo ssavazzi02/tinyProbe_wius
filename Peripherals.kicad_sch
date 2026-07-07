@@ -1079,6 +1079,267 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "#dzdb:g_res/R-22-0201"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "22"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GJF22R0C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Res 22Ω 0201 0.05W Thick Film ±1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power" "0.05W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Resistance" "22"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "SPN" "667-ERJ-1GJF22R0C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C20021234"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "ERJ-1GJF22R0C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "Mouser"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Panasonic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "IPN" "R-22-0201"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Material" "Thick Film"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Comment" "lifecycle=Active;note=AEC-Q200 compliant;TCR=±200ppm/°C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_SMD:R_0201_0603Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "g_res/R-22-0201_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "g_res/R-22-0201_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "#dzdb:s_con/CON-MOL-1040310811"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3237,7 +3498,7 @@
 		(at 172.72 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "014adf8a-770b-4f43-9526-f6218abf21cb")
+		(uuid "1c1c03a4-ae36-434b-855a-d129783fe35d")
 	)
 	(junction
 		(at 95.25 60.96)
@@ -3347,7 +3608,7 @@
 		(uuid "00bc4a5f-bf6d-45ad-93db-b389488b5b4a")
 	)
 	(bus_entry
-		(at 57.15 144.78)
+		(at 45.72 144.78)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3356,7 +3617,7 @@
 		(uuid "737f7749-56d3-469d-b32a-c55944873196")
 	)
 	(bus_entry
-		(at 57.15 134.62)
+		(at 45.72 134.62)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3365,7 +3626,7 @@
 		(uuid "7a423b70-8869-411e-998d-f3efc65e9809")
 	)
 	(bus_entry
-		(at 57.15 139.7)
+		(at 45.72 139.7)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3374,7 +3635,7 @@
 		(uuid "7f455fa1-dd17-4fed-9118-c6d9cdd6ef10")
 	)
 	(bus_entry
-		(at 57.15 129.54)
+		(at 45.72 129.54)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3453,7 +3714,7 @@
 	)
 	(bus
 		(pts
-			(xy 57.15 146.05) (xy 57.15 129.54)
+			(xy 45.72 146.05) (xy 45.72 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3533,13 +3794,23 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 127) (xy 77.47 127)
+			(xy 48.26 127) (xy 77.47 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2ef53853-6c17-4aca-8643-c8d8105a9fb1")
+	)
+	(wire
+		(pts
+			(xy 119.38 142.24) (xy 124.46 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307744c1-eff2-43e1-92da-0b023718739c")
 	)
 	(wire
 		(pts
@@ -3603,7 +3874,7 @@
 	)
 	(bus
 		(pts
-			(xy 50.8 146.05) (xy 57.15 146.05)
+			(xy 39.37 146.05) (xy 45.72 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3640,6 +3911,16 @@
 			(type default)
 		)
 		(uuid "54794d21-99f5-49b4-9bc9-476a472e3781")
+	)
+	(wire
+		(pts
+			(xy 172.72 77.47) (xy 180.34 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a62586-82d3-41c3-be25-0848b1f2f5a0")
 	)
 	(wire
 		(pts
@@ -3703,6 +3984,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 127) (xy 124.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b52263-1d99-4b01-b536-d24dfe745f66")
+	)
+	(wire
+		(pts
 			(xy 95.25 60.96) (xy 111.76 60.96)
 		)
 		(stroke
@@ -3743,7 +4034,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 132.08) (xy 77.47 132.08)
+			(xy 48.26 132.08) (xy 77.47 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3760,16 +4051,6 @@
 			(type default)
 		)
 		(uuid "7890fac5-428e-4615-b87b-e12848525e13")
-	)
-	(wire
-		(pts
-			(xy 59.69 137.16) (xy 77.47 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e21c36a-f3df-4c95-ac41-38018c391ba4")
 	)
 	(wire
 		(pts
@@ -3813,7 +4094,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 142.24) (xy 77.47 142.24)
+			(xy 48.26 142.24) (xy 77.47 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4013,6 +4294,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 137.16) (xy 77.47 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f23c7e-11d0-45ce-b8c2-4a87c2c29a5b")
+	)
+	(wire
+		(pts
 			(xy 97.79 127) (xy 111.76 127)
 		)
 		(stroke
@@ -4033,7 +4324,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 137.16) (xy 111.76 137.16)
+			(xy 97.79 137.16) (xy 124.46 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4083,6 +4374,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 137.16) (xy 67.31 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c592a659-97cd-4278-b5a6-c594c6117432")
+	)
+	(wire
+		(pts
 			(xy 97.79 132.08) (xy 111.76 132.08)
 		)
 		(stroke
@@ -4120,16 +4421,6 @@
 			(type default)
 		)
 		(uuid "da95b719-ab85-41e1-83a8-ed8b4d06b9ee")
-	)
-	(wire
-		(pts
-			(xy 172.72 77.47) (xy 217.17 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddcd35a2-142a-44a2-930d-bdb42007d5dc")
 	)
 	(wire
 		(pts
@@ -4183,6 +4474,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 132.08) (xy 124.46 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7dffe49-530c-4970-b935-b0a446c463de")
+	)
+	(wire
+		(pts
 			(xy 217.17 74.93) (xy 199.39 74.93)
 		)
 		(stroke
@@ -4210,6 +4511,16 @@
 			(type default)
 		)
 		(uuid "eec7d801-c531-44c3-b99e-fba7e1023ccf")
+	)
+	(wire
+		(pts
+			(xy 187.96 77.47) (xy 217.17 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef06cf36-a861-4d46-a53f-47a180122e5e")
 	)
 	(wire
 		(pts
@@ -4272,7 +4583,7 @@
 		(uuid "0335f5ad-24a1-4c88-8c35-570ca155212b")
 	)
 	(label "SPI_MCU.SCK"
-		(at 59.69 127 0)
+		(at 48.26 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4282,7 +4593,7 @@
 		(uuid "0ac891eb-7817-4a21-b96f-9f0e03c66de9")
 	)
 	(label "SPI_MCU.CS0"
-		(at 59.69 142.24 0)
+		(at 48.26 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4292,12 +4603,12 @@
 		(uuid "2710a7f2-3d01-4ab7-ad17-618a77e27f53")
 	)
 	(label "SPI_SD.SCK"
-		(at 111.76 127 180)
+		(at 124.46 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "46b1e43c-75de-4783-8a7b-af7d9b751407")
 	)
@@ -4322,7 +4633,7 @@
 		(uuid "8d4662ad-26af-4f32-be88-7dd1124f9f9d")
 	)
 	(label "SPI_MCU.MISO"
-		(at 59.69 137.16 0)
+		(at 48.26 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4342,12 +4653,12 @@
 		(uuid "b971ffaa-fb67-4037-a770-5ba024bc950a")
 	)
 	(label "SPI_SD.MISO"
-		(at 111.76 137.16 180)
+		(at 124.46 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ba61771c-b5b9-43a3-91b3-e9792a77036f")
 	)
@@ -4362,22 +4673,22 @@
 		(uuid "c825029e-4d6e-4476-b15e-26d6ec2bf9ec")
 	)
 	(label "SPI_SD.CS0"
-		(at 111.76 142.24 180)
+		(at 124.46 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ca8dd712-3e0a-4861-a89b-0ca6e814a364")
 	)
 	(label "SPI_SD.MOSI"
-		(at 111.76 132.08 180)
+		(at 124.46 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d23ec18c-9a1e-45b9-8c51-4e6102ea03e7")
 	)
@@ -4392,7 +4703,7 @@
 		(uuid "d2dba76b-0d5b-40e7-9909-a88c0792d2df")
 	)
 	(label "SPI_MCU.MOSI"
-		(at 59.69 132.08 0)
+		(at 48.26 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4425,7 +4736,7 @@
 	)
 	(hierarchical_label "SPI_MCU{SPI}"
 		(shape bidirectional)
-		(at 50.8 146.05 180)
+		(at 39.37 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4455,6 +4766,206 @@
 			(justify right)
 		)
 		(uuid "e9ae652e-7056-40e1-ac78-dcaaff7268f0")
+	)
+	(symbol
+		(lib_id "#dzdb:g_res/R-22-0201")
+		(at 115.57 127 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0349543e-628e-49be-9366-59ea9ac58567")
+		(property "Reference" "R49"
+			(at 120.396 125.984 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 111.76 125.984 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 115.57 128.778 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GJF22R0C"
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Res 22Ω 0201 0.05W Thick Film ±1%"
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.05W"
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "22"
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "667-ERJ-1GJF22R0C"
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20021234"
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-1GJF22R0C"
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "R-22-0201"
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "Thick Film"
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active;note=AEC-Q200 compliant;TCR=±200ppm/°C"
+			(at 115.57 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8f8d74d-3ad2-4630-aea4-8009177da6a9")
+		)
+		(pin "2"
+			(uuid "e3a46b61-2690-4a5b-896e-7d0c5cbaace2")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -6573,6 +7084,206 @@
 		)
 	)
 	(symbol
+		(lib_id "#dzdb:g_res/R-22-0201")
+		(at 115.57 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2eaf6954-4f55-4bb5-a1b6-1206ae1616a9")
+		(property "Reference" "R52"
+			(at 120.396 131.064 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 111.76 131.064 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 115.57 133.858 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GJF22R0C"
+			(at 115.57 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Res 22Ω 0201 0.05W Thick Film ±1%"
+			(at 115.57 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.05W"
+			(at 115.57 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 115.57 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "22"
+			(at 115.57 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "667-ERJ-1GJF22R0C"
+			(at 115.57 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20021234"
+			(at 115.57 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-1GJF22R0C"
+			(at 115.57 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 115.57 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 115.57 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "R-22-0201"
+			(at 115.57 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "Thick Film"
+			(at 115.57 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active;note=AEC-Q200 compliant;TCR=±200ppm/°C"
+			(at 115.57 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe0d7fd7-6389-456a-9b30-085aadbb83b1")
+		)
+		(pin "2"
+			(uuid "a092b31c-a06f-404c-836f-9027da16df54")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "#dzdb:g_cap/C-100n-0603")
 		(at 104.14 110.49 0)
 		(unit 1)
@@ -8261,6 +8972,206 @@
 		)
 	)
 	(symbol
+		(lib_id "#dzdb:g_res/R-22-0201")
+		(at 115.57 142.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a9d364c1-a45d-493b-8555-d127b4248a14")
+		(property "Reference" "R48"
+			(at 120.396 141.224 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 111.76 141.224 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 115.57 144.018 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GJF22R0C"
+			(at 115.57 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Res 22Ω 0201 0.05W Thick Film ±1%"
+			(at 115.57 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.05W"
+			(at 115.57 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 115.57 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "22"
+			(at 115.57 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "667-ERJ-1GJF22R0C"
+			(at 115.57 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20021234"
+			(at 115.57 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-1GJF22R0C"
+			(at 115.57 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 115.57 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 115.57 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "R-22-0201"
+			(at 115.57 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "Thick Film"
+			(at 115.57 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active;note=AEC-Q200 compliant;TCR=±200ppm/°C"
+			(at 115.57 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a512a47d-833a-428d-90d6-9a02867f0399")
+		)
+		(pin "2"
+			(uuid "942eca24-899c-41d6-988f-96e39130309c")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 35.56 64.77 0)
 		(unit 1)
@@ -8928,6 +9839,206 @@
 		)
 	)
 	(symbol
+		(lib_id "#dzdb:g_res/R-22-0201")
+		(at 184.15 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ccbf440c-e948-4711-9c92-98b3b9377f9b")
+		(property "Reference" "R53"
+			(at 188.976 76.454 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 180.34 76.454 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 184.15 79.248 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GJF22R0C"
+			(at 184.15 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Res 22Ω 0201 0.05W Thick Film ±1%"
+			(at 184.15 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.05W"
+			(at 184.15 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 184.15 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "22"
+			(at 184.15 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "667-ERJ-1GJF22R0C"
+			(at 184.15 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20021234"
+			(at 184.15 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-1GJF22R0C"
+			(at 184.15 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 184.15 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 184.15 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "R-22-0201"
+			(at 184.15 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "Thick Film"
+			(at 184.15 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active;note=AEC-Q200 compliant;TCR=±200ppm/°C"
+			(at 184.15 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3444091b-df79-4944-afb3-220b6ccd02e9")
+		)
+		(pin "2"
+			(uuid "24a19619-0f54-4605-b110-117122e45f8a")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "#dzdb:g_res/R-10k-0402")
 		(at 204.47 41.91 0)
 		(unit 1)
@@ -9124,6 +10235,206 @@
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:g_res/R-22-0201")
+		(at 71.12 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e163d422-2f1e-4b01-bc19-105c62e19bd0")
+		(property "Reference" "R47"
+			(at 75.946 136.144 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 67.31 136.144 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 71.12 138.938 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GJF22R0C"
+			(at 71.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Res 22Ω 0201 0.05W Thick Film ±1%"
+			(at 71.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.05W"
+			(at 71.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 71.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "22"
+			(at 71.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "667-ERJ-1GJF22R0C"
+			(at 71.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20021234"
+			(at 71.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-1GJF22R0C"
+			(at 71.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 71.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 71.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "R-22-0201"
+			(at 71.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "Thick Film"
+			(at 71.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active;note=AEC-Q200 compliant;TCR=±200ppm/°C"
+			(at 71.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8489e153-fcfc-4e77-a611-ace66604cdd0")
+		)
+		(pin "2"
+			(uuid "82f83e9e-b65c-461f-975b-86d7a11cc3d1")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
+					(reference "R47")
 					(unit 1)
 				)
 			)
