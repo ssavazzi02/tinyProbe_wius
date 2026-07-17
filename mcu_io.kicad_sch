@@ -3829,10 +3829,6 @@
 		(uuid "9661a55c-7109-48a4-924f-ab08e8e99490")
 	)
 	(no_connect
-		(at 55.88 73.66)
-		(uuid "a1030aab-05c4-45b4-a914-592e64cb9f40")
-	)
-	(no_connect
 		(at 227.33 81.28)
 		(uuid "a44ccd38-bba9-4db7-ac28-573a71562974")
 	)
@@ -4066,6 +4062,16 @@
 			(type default)
 		)
 		(uuid "2445ecfe-6207-452d-ba27-cf4a979166bb")
+	)
+	(wire
+		(pts
+			(xy 49.53 73.66) (xy 55.88 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2507361d-8c28-4867-9ae5-eef064ee6a30")
 	)
 	(wire
 		(pts
@@ -4529,7 +4535,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 99.06) (xy 152.4 99.06)
+			(xy 41.91 73.66) (xy 20.32 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4648,7 +4654,7 @@
 		(uuid "0e2cc2a8-c701-48af-ad67-f0fff3f74b17")
 	)
 	(label "SPI_MCU.CS0"
-		(at 137.16 88.9 0)
+		(at 135.89 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4658,7 +4664,7 @@
 		(uuid "11743d88-8712-44d0-8115-6bb9c3c349e8")
 	)
 	(label "SPI_MCU.MOSI"
-		(at 139.7 93.98 0)
+		(at 135.89 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4668,7 +4674,7 @@
 		(uuid "2538b20c-8c9f-4e2a-89b7-1e1835eda34a")
 	)
 	(label "SPI_FPGA.SCK"
-		(at 135.89 114.3 0)
+		(at 135.89 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4688,12 +4694,12 @@
 		(uuid "2ae7c64f-3c97-4eb6-a1f4-c9154e9bc8ba")
 	)
 	(label "SPI_MCU.CS1"
-		(at 138.43 99.06 0)
+		(at 34.29 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3894f5dc-0dfe-4269-ab9c-9f4e61ddfc7c")
 	)
@@ -4718,7 +4724,7 @@
 		(uuid "66db8cf1-6639-4585-a3cb-bd34c580e81b")
 	)
 	(label "SPI_FPGA.CS0"
-		(at 135.89 116.84 0)
+		(at 137.16 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4748,7 +4754,7 @@
 		(uuid "91d5bd42-02f4-423f-8137-95f449138a2b")
 	)
 	(label "SPI_MCU.MISO"
-		(at 138.43 91.44 0)
+		(at 135.89 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4778,7 +4784,7 @@
 		(uuid "af7d9021-c6b5-453f-afa4-c98ba8fac725")
 	)
 	(label "SPI_FPGA.MOSI"
-		(at 135.89 111.76 0)
+		(at 139.7 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4798,7 +4804,7 @@
 		(uuid "b203e591-4ab8-40e4-b905-cefbb8ce3b26")
 	)
 	(label "SPI_FPGA.MISO"
-		(at 135.89 109.22 0)
+		(at 138.43 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4818,7 +4824,7 @@
 		(uuid "fe250e6b-22db-4058-b6f8-33b43fca856a")
 	)
 	(label "SPI_MCU.SCK"
-		(at 135.89 86.36 0)
+		(at 135.89 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4928,7 +4934,7 @@
 	)
 	(hierarchical_label "SPI_MCU{SPI}"
 		(shape bidirectional)
-		(at 157.48 83.82 0)
+		(at 157.48 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4972,7 +4978,7 @@
 	)
 	(hierarchical_label "SPI_FPGA{SPI}"
 		(shape bidirectional)
-		(at 157.48 106.68 0)
+		(at 157.48 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6024,7 +6030,7 @@
 	)
 	(symbol
 		(lib_id "#dzdb:g_res/R-22-0201")
-		(at 106.68 99.06 90)
+		(at 45.72 73.66 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6034,7 +6040,7 @@
 		(dnp no)
 		(uuid "8aa9cee3-d42c-45c1-9613-28f431596919")
 		(property "Reference" "R46"
-			(at 111.506 98.044 90)
+			(at 40.894 74.676 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6044,7 +6050,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 102.87 98.044 90)
+			(at 49.53 74.676 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6054,7 +6060,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 106.68 100.838 90)
+			(at 45.72 71.882 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6065,7 +6071,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GJF22R0C"
-			(at 106.68 99.06 0)
+			(at 45.72 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6076,7 +6082,7 @@
 			)
 		)
 		(property "Description" "Res 22Ω 0201 0.05W Thick Film ±1%"
-			(at 106.68 99.06 0)
+			(at 45.72 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6087,7 +6093,7 @@
 			)
 		)
 		(property "Power" "0.05W"
-			(at 106.68 99.06 0)
+			(at 45.72 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6098,7 +6104,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 106.68 99.06 0)
+			(at 45.72 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6109,7 +6115,7 @@
 			)
 		)
 		(property "Resistance" "22"
-			(at 106.68 99.06 0)
+			(at 45.72 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6120,7 +6126,7 @@
 			)
 		)
 		(property "SPN" "667-ERJ-1GJF22R0C"
-			(at 106.68 99.06 0)
+			(at 45.72 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6131,7 +6137,7 @@
 			)
 		)
 		(property "LCSC" "C20021234"
-			(at 106.68 99.06 0)
+			(at 45.72 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6142,7 +6148,7 @@
 			)
 		)
 		(property "MPN" "ERJ-1GJF22R0C"
-			(at 106.68 99.06 0)
+			(at 45.72 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6153,7 +6159,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 106.68 99.06 0)
+			(at 45.72 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6164,7 +6170,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 106.68 99.06 0)
+			(at 45.72 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6175,7 +6181,7 @@
 			)
 		)
 		(property "IPN" "R-22-0201"
-			(at 106.68 99.06 0)
+			(at 45.72 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6186,7 +6192,7 @@
 			)
 		)
 		(property "Material" "Thick Film"
-			(at 106.68 99.06 0)
+			(at 45.72 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6197,7 +6203,7 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active;note=AEC-Q200 compliant;TCR=±200ppm/°C"
-			(at 106.68 99.06 0)
+			(at 45.72 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

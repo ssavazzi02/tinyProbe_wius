@@ -3398,6 +3398,27 @@
 		)
 		(uuid "ea043014-5dc6-47c3-aecf-c1e5dcb24aa1")
 	)
+	(text_box "change all 100 nf caps to 0201 size"
+		(exclude_from_sim no)
+		(at 59.69 97.79 0)
+		(size 82.55 24.13)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 153 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "fd440bb8-f868-49ec-ae6e-2b0b72ac5e1a")
+	)
 	(junction
 		(at 172.72 77.47)
 		(diameter 0)
