@@ -13582,16 +13582,6 @@
 		)
 		(uuid "6da56a0d-5afc-4937-a998-862fbed38c64")
 	)
-	(label "USB_D_N"
-		(at 74.93 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7c34fdd2-e2e7-4273-b392-12dc0bb42ea3")
-	)
 	(label "1V2"
 		(at 144.78 133.35 0)
 		(effects
@@ -13641,6 +13631,16 @@
 			(justify left bottom)
 		)
 		(uuid "d21ae6f3-b594-4a70-a9b0-97e115c82c6e")
+	)
+	(label "USB_D_N"
+		(at 74.93 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e02fa0a3-590e-4aec-b62b-96eacd83dcf9")
 	)
 	(label "SPI_FT232.MIOSI0"
 		(at 156.21 146.05 180)
