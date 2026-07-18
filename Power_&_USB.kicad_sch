@@ -5,7 +5,7 @@
 	(uuid "5c4eea1a-861a-4298-a3b4-d4c806537d5e")
 	(paper "A4")
 	(lib_symbols
-		(symbol "#dzdb:g_cap/C-100n-0402"
+		(symbol "#dzdb:g_cap/C-100n-0201"
 			(pin_numbers
 				(hide yes)
 			)
@@ -39,7 +39,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 				(at 0.9652 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -50,7 +50,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A104KA01D"
+			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM033R61A104ME15%23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -61,7 +61,7 @@
 					)
 				)
 			)
-			(property "Description" "Cap 100nF 50V 0402 X5R ±10%"
+			(property "Description" "Cap 100nF 10V 0201 X5R ±20%"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -72,7 +72,7 @@
 					)
 				)
 			)
-			(property "Tolerance" "10%"
+			(property "LCSC" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -94,7 +94,7 @@
 					)
 				)
 			)
-			(property "Voltage" "50V"
+			(property "Voltage" "10V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -105,7 +105,7 @@
 					)
 				)
 			)
-			(property "SPN" "81-GRM155R61H104KE9D"
+			(property "Tolerance" "20%"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -116,7 +116,7 @@
 					)
 				)
 			)
-			(property "IPN" "C-100n-0402"
+			(property "SPN" "81-GRM033R61A104ME5D"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -127,7 +127,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C105882"
+			(property "IPN" "C-100n-0201"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -138,7 +138,7 @@
 					)
 				)
 			)
-			(property "MPN" "GRM155R61H104KE19"
+			(property "MPN" "GRM033R61A104ME15"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -204,7 +204,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Capacitor_SMD:C_0402_1005Metric"
+			(property "ki_fp_filters" "Capacitor_SMD:C_0201_0603Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -215,7 +215,7 @@
 					)
 				)
 			)
-			(symbol "g_cap/C-100n-0402_0_1"
+			(symbol "g_cap/C-100n-0201_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -241,283 +241,7 @@
 					)
 				)
 			)
-			(symbol "g_cap/C-100n-0402_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "#dzdb:g_cap/C-100n-0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "100nF"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM188R71H104KA57J"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Cap 100nF 50V 0603 X7R ±10%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance" "10%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Capacitance" "100nF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Voltage" "50V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "SPN" "81-GCM188R71H104KA7J"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "IPN" "C-100n-0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C14663"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "GCM188R71H104KA57"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "Mouser"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Murata"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Material" "X7R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Comment" "lifecycle=Active"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Capacitor_SMD:C_0603_1608Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "g_cap/C-100n-0603_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "g_cap/C-100n-0603_1_1"
+			(symbol "g_cap/C-100n-0201_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -1109,7 +833,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "#dzdb:g_res/R-100k-0402"
+		(symbol "#dzdb:g_res/R-100K-0201"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1141,7 +865,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 				(at -1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1152,7 +876,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2RKF1003X"
+			(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GJF1003C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1163,7 +887,7 @@
 					)
 				)
 			)
-			(property "Description" "Res 100kΩ 0.1W 0402 Thick Film 1%"
+			(property "Description" "Res 100 kΩ 0201 0.05W Thick Film ±1%"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1174,7 +898,7 @@
 					)
 				)
 			)
-			(property "Power" "0.1W"
+			(property "Power" "0.05W"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1207,7 +931,7 @@
 					)
 				)
 			)
-			(property "SPN" "667-ERJ-2RKF1003X"
+			(property "SPN" "667-ERJ-1GJF1003C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1218,7 +942,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C192169"
+			(property "LCSC" "C20021045"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1229,7 +953,7 @@
 					)
 				)
 			)
-			(property "MPN" "ERJ-2RKF1003X"
+			(property "MPN" "ERJ-1GJF1003C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1262,7 +986,7 @@
 					)
 				)
 			)
-			(property "IPN" "R-100k-0402"
+			(property "IPN" "R-100K-0201"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1284,7 +1008,7 @@
 					)
 				)
 			)
-			(property "Comment" "lifecycle=Active; TCR=±100ppm/°C"
+			(property "Comment" "lifecycle=Active;note=AEC-Q200 compliant;TCR=±200ppm/°C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1306,7 +1030,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Resistor_SMD:R_0402_1005Metric"
+			(property "ki_fp_filters" "Resistor_SMD:R_0201_0603Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1317,7 +1041,7 @@
 					)
 				)
 			)
-			(symbol "g_res/R-100k-0402_0_1"
+			(symbol "g_res/R-100K-0201_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -1330,7 +1054,7 @@
 					)
 				)
 			)
-			(symbol "g_res/R-100k-0402_1_1"
+			(symbol "g_res/R-100K-0201_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -6516,6 +6240,12 @@
 		(uuid "04fa51fb-5c79-44c6-8ebf-4e9593380e4a")
 	)
 	(junction
+		(at 262.89 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d80bdc9-f746-412f-a0f3-9e891fc41869")
+	)
+	(junction
 		(at 59.69 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6628,12 +6358,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd40a23d-8abb-490e-bfc5-794ad1e9eb18")
-	)
-	(junction
-		(at 262.89 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c36f1efa-d868-4fb6-a559-590c719f3479")
 	)
 	(junction
 		(at 156.21 173.99)
@@ -7069,6 +6793,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 73.66) (xy 266.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cfb2f86-8b5f-4e9a-bf44-6fe7e7fd9afc")
+	)
+	(wire
+		(pts
 			(xy 81.28 53.34) (xy 81.28 63.5)
 		)
 		(stroke
@@ -7179,7 +6913,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 73.66) (xy 266.7 73.66)
+			(xy 252.73 73.66) (xy 262.89 73.66)
 		)
 		(stroke
 			(width 0)
@@ -7556,16 +7290,6 @@
 			(type default)
 		)
 		(uuid "9eb845b9-7831-449c-b601-051af97587cd")
-	)
-	(wire
-		(pts
-			(xy 262.89 73.66) (xy 252.73 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fb00acb-43de-4f92-9703-db3aab08abd2")
 	)
 	(wire
 		(pts
@@ -14871,208 +14595,6 @@
 		)
 	)
 	(symbol
-		(lib_id "#dzdb:g_cap/C-100n-0603")
-		(at 223.52 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2055d004-06a8-4310-ae00-d488dafaf947")
-		(property "Reference" "C36"
-			(at 226.568 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 226.314 36.576 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 224.4852 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM188R71H104KA57J"
-			(at 223.52 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cap 100nF 50V 0603 X7R ±10%"
-			(at 223.52 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 223.52 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "100nF"
-			(at 223.52 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 223.52 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SPN" "81-GCM188R71H104KA7J"
-			(at 223.52 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "C-100n-0603"
-			(at 223.52 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 223.52 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GCM188R71H104KA57"
-			(at 223.52 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 223.52 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 223.52 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Material" "X7R"
-			(at 223.52 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "lifecycle=Active"
-			(at 223.52 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "707a9100-72b9-48f5-9ea3-cf30a6de55c3")
-		)
-		(pin "2"
-			(uuid "4682ab4d-1636-4e07-a395-77edcbb67a43")
-		)
-		(instances
-			(project "wius_new"
-				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 64.77 76.2 0)
 		(unit 1)
@@ -15429,6 +14951,209 @@
 		)
 	)
 	(symbol
+		(lib_id "#dzdb:g_cap/C-100n-0201")
+		(at 262.89 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b85e282-dff1-4c74-a905-86980d3fc7ff")
+		(property "Reference" "C10"
+			(at 266.7 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 266.7 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 263.8552 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM033R61A104ME15%23"
+			(at 262.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Cap 100nF 10V 0201 X5R ±20%"
+			(at 262.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 262.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 262.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 262.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 262.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "81-GRM033R61A104ME5D"
+			(at 262.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "C-100n-0201"
+			(at 262.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM033R61A104ME15"
+			(at 262.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 262.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 262.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "X5R"
+			(at 262.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active"
+			(at 262.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "829a7255-8dcb-4f50-a80a-f6f621a57e3d")
+		)
+		(pin "2"
+			(uuid "ee201781-2e5e-4364-8117-f82b48e51c46")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 274.32 73.66 0)
 		(unit 1)
@@ -15501,208 +15226,6 @@
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#dzdb:g_cap/C-100n-0603")
-		(at 262.89 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "61b3ec22-9100-4cec-8262-02d477d3a0bd")
-		(property "Reference" "C10"
-			(at 265.938 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 265.684 78.486 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 263.8552 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM188R71H104KA57J"
-			(at 262.89 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cap 100nF 50V 0603 X7R ±10%"
-			(at 262.89 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 262.89 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "100nF"
-			(at 262.89 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 262.89 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SPN" "81-GCM188R71H104KA7J"
-			(at 262.89 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "C-100n-0603"
-			(at 262.89 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 262.89 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GCM188R71H104KA57"
-			(at 262.89 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 262.89 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 262.89 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Material" "X7R"
-			(at 262.89 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "lifecycle=Active"
-			(at 262.89 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "281c6136-0dae-4429-8ef0-b0e120ca196f")
-		)
-		(pin "2"
-			(uuid "fc3d5c49-9e5a-473c-bf8e-f6000bef57b5")
-		)
-		(instances
-			(project "wius_new"
-				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -16433,208 +15956,6 @@
 		)
 	)
 	(symbol
-		(lib_id "#dzdb:g_cap/C-100n-0603")
-		(at 194.31 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "71e7c616-8a3c-4cef-aaa3-42f6f4b18b0a")
-		(property "Reference" "C35"
-			(at 197.358 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 197.104 36.576 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 195.2752 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM188R71H104KA57J"
-			(at 194.31 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cap 100nF 50V 0603 X7R ±10%"
-			(at 194.31 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 194.31 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "100nF"
-			(at 194.31 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 194.31 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SPN" "81-GCM188R71H104KA7J"
-			(at 194.31 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "C-100n-0603"
-			(at 194.31 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 194.31 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GCM188R71H104KA57"
-			(at 194.31 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 194.31 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 194.31 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Material" "X7R"
-			(at 194.31 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "lifecycle=Active"
-			(at 194.31 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7cb8c133-8fdd-4234-ba9f-1c98f06de33f")
-		)
-		(pin "2"
-			(uuid "eeb05b8a-6e13-479d-97f8-a745052bab5b")
-		)
-		(instances
-			(project "wius_new"
-				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 223.52 40.64 0)
 		(unit 1)
@@ -16706,209 +16027,6 @@
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
 					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#dzdb:g_cap/C-100n-0402")
-		(at 54.61 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79e267c0-7624-4784-8039-182c4b686fd4")
-		(property "Reference" "C21"
-			(at 58.42 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 58.42 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 55.5752 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A104KA01D"
-			(at 54.61 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cap 100nF 50V 0402 X5R ±10%"
-			(at 54.61 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 54.61 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "100nF"
-			(at 54.61 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 54.61 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SPN" "81-GRM155R61H104KE9D"
-			(at 54.61 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "C-100n-0402"
-			(at 54.61 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C105882"
-			(at 54.61 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R61H104KE19"
-			(at 54.61 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 54.61 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 54.61 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Material" "X5R"
-			(at 54.61 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "lifecycle=Active"
-			(at 54.61 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "872c5cd7-7a7d-44c2-a45c-e48f6761655d")
-		)
-		(pin "2"
-			(uuid "4f998a74-1d3f-4efa-a6f0-ae636393a037")
-		)
-		(instances
-			(project "wius_new"
-				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -17784,6 +16902,412 @@
 		)
 	)
 	(symbol
+		(lib_id "#dzdb:g_cap/C-100n-0201")
+		(at 223.52 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89d3d5c3-baca-4c0f-9086-240d5846fcda")
+		(property "Reference" "C36"
+			(at 227.33 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 227.33 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 224.4852 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM033R61A104ME15%23"
+			(at 223.52 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Cap 100nF 10V 0201 X5R ±20%"
+			(at 223.52 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 223.52 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 223.52 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 223.52 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 223.52 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "81-GRM033R61A104ME5D"
+			(at 223.52 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "C-100n-0201"
+			(at 223.52 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM033R61A104ME15"
+			(at 223.52 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 223.52 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 223.52 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "X5R"
+			(at 223.52 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active"
+			(at 223.52 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ab22cff-32d2-48da-a3d1-784a97913b40")
+		)
+		(pin "2"
+			(uuid "937c0184-41c5-40ca-8f78-b451f414ca35")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:g_cap/C-100n-0201")
+		(at 194.31 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a1fffa4-fb63-4f2d-9a24-1dc8683fd2d2")
+		(property "Reference" "C35"
+			(at 198.12 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 198.12 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 195.2752 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM033R61A104ME15%23"
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Cap 100nF 10V 0201 X5R ±20%"
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "81-GRM033R61A104ME5D"
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "C-100n-0201"
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM033R61A104ME15"
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "X5R"
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active"
+			(at 194.31 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dfcdee95-6a99-47f1-abea-70bac89a7193")
+		)
+		(pin "2"
+			(uuid "81600537-1297-4fd7-84c4-bc8814b34aba")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 54.61 48.26 0)
 		(unit 1)
@@ -18296,6 +17820,209 @@
 		)
 	)
 	(symbol
+		(lib_id "#dzdb:g_cap/C-100n-0201")
+		(at 67.31 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "968a18c6-3b63-4c76-a273-6124462fd7af")
+		(property "Reference" "C38"
+			(at 71.12 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 71.12 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 68.2752 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM033R61A104ME15%23"
+			(at 67.31 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Cap 100nF 10V 0201 X5R ±20%"
+			(at 67.31 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 67.31 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 67.31 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 67.31 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 67.31 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "81-GRM033R61A104ME5D"
+			(at 67.31 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "C-100n-0201"
+			(at 67.31 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM033R61A104ME15"
+			(at 67.31 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 67.31 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 67.31 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "X5R"
+			(at 67.31 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active"
+			(at 67.31 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9dab6a63-bb00-44a5-8776-bc146535677d")
+		)
+		(pin "2"
+			(uuid "d53a5e6c-f52c-4c04-b560-6acba86e164d")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 157.48 46.99 0)
 		(unit 1)
@@ -18725,6 +18452,209 @@
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
 					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:g_cap/C-100n-0201")
+		(at 29.21 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0fc0792-2323-4572-8c56-aa229c7b6639")
+		(property "Reference" "C18"
+			(at 33.02 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 33.02 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 30.1752 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM033R61A104ME15%23"
+			(at 29.21 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Cap 100nF 10V 0201 X5R ±20%"
+			(at 29.21 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 29.21 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 29.21 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 29.21 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 29.21 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "81-GRM033R61A104ME5D"
+			(at 29.21 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "C-100n-0201"
+			(at 29.21 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM033R61A104ME15"
+			(at 29.21 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 29.21 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 29.21 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "X5R"
+			(at 29.21 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active"
+			(at 29.21 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "933a3a1f-dc85-40bf-9dad-d1542a704d9f")
+		)
+		(pin "2"
+			(uuid "28f91b71-e8e1-4964-bad1-8aa806ab780d")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -19477,210 +19407,8 @@
 		)
 	)
 	(symbol
-		(lib_id "#dzdb:g_cap/C-100n-0603")
-		(at 67.31 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c8062579-6961-47ef-9946-834baa2f5b83")
-		(property "Reference" "C38"
-			(at 70.358 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 70.104 107.696 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 68.2752 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM188R71H104KA57J"
-			(at 67.31 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cap 100nF 50V 0603 X7R ±10%"
-			(at 67.31 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 67.31 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "100nF"
-			(at 67.31 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 67.31 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SPN" "81-GCM188R71H104KA7J"
-			(at 67.31 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "C-100n-0603"
-			(at 67.31 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 67.31 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GCM188R71H104KA57"
-			(at 67.31 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 67.31 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 67.31 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Material" "X7R"
-			(at 67.31 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "lifecycle=Active"
-			(at 67.31 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dcea81d3-f9c7-4fc2-8124-e6aa4c861f2f")
-		)
-		(pin "2"
-			(uuid "14add42a-45de-4cb1-a5f8-1d67d56a5b70")
-		)
-		(instances
-			(project "wius_new"
-				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
-					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#dzdb:g_cap/C-100n-0402")
-		(at 68.58 41.91 0)
+		(lib_id "#dzdb:g_res/R-100K-0201")
+		(at 181.61 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19689,9 +19417,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cb1b742d-150d-48c1-becf-7132047e3738")
-		(property "Reference" "C22"
-			(at 72.39 40.6399 0)
+		(uuid "ca0394da-d07c-4edf-8f01-8de16a3c8852")
+		(property "Reference" "R40"
+			(at 184.15 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19701,8 +19429,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 72.39 43.1799 0)
+		(property "Value" "100k"
+			(at 184.15 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19712,8 +19440,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 69.5452 45.72 0)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 179.832 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19723,8 +19451,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A104KA01D"
-			(at 68.58 41.91 0)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GJF1003C"
+			(at 181.61 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19734,8 +19462,8 @@
 				)
 			)
 		)
-		(property "Description" "Cap 100nF 50V 0402 X5R ±10%"
-			(at 68.58 41.91 0)
+		(property "Description" "Res 100 kΩ 0201 0.05W Thick Film ±1%"
+			(at 181.61 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19745,8 +19473,8 @@
 				)
 			)
 		)
-		(property "Tolerance" "10%"
-			(at 68.58 41.91 0)
+		(property "Power" "0.05W"
+			(at 181.61 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19756,8 +19484,8 @@
 				)
 			)
 		)
-		(property "Capacitance" "100nF"
-			(at 68.58 41.91 0)
+		(property "Tolerance" "1%"
+			(at 181.61 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19767,8 +19495,8 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
-			(at 68.58 41.91 0)
+		(property "Resistance" "100k"
+			(at 181.61 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19778,8 +19506,8 @@
 				)
 			)
 		)
-		(property "SPN" "81-GRM155R61H104KE9D"
-			(at 68.58 41.91 0)
+		(property "SPN" "667-ERJ-1GJF1003C"
+			(at 181.61 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19789,8 +19517,8 @@
 				)
 			)
 		)
-		(property "IPN" "C-100n-0402"
-			(at 68.58 41.91 0)
+		(property "LCSC" "C20021045"
+			(at 181.61 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19800,19 +19528,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C105882"
-			(at 68.58 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R61H104KE19"
-			(at 68.58 41.91 0)
+		(property "MPN" "ERJ-1GJF1003C"
+			(at 181.61 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19823,7 +19540,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 68.58 41.91 0)
+			(at 181.61 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19833,8 +19550,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 68.58 41.91 0)
+		(property "Manufacturer" "Panasonic"
+			(at 181.61 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19844,8 +19561,8 @@
 				)
 			)
 		)
-		(property "Material" "X5R"
-			(at 68.58 41.91 0)
+		(property "IPN" "R-100K-0201"
+			(at 181.61 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19855,8 +19572,19 @@
 				)
 			)
 		)
-		(property "Comment" "lifecycle=Active"
-			(at 68.58 41.91 0)
+		(property "Material" "Thick Film"
+			(at 181.61 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active;note=AEC-Q200 compliant;TCR=±200ppm/°C"
+			(at 181.61 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19867,15 +19595,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "13a13751-1461-4ce1-805a-c137bf860d4d")
+			(uuid "292d9278-42a7-4b7c-ab79-40a3ff74343b")
 		)
 		(pin "2"
-			(uuid "17f083fd-be18-42d0-9991-996a0a495411")
+			(uuid "1ac2d3fc-3981-41bb-a1f9-85b45a3af401")
 		)
 		(instances
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
-					(reference "C22")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -20273,412 +20001,6 @@
 		)
 	)
 	(symbol
-		(lib_id "#dzdb:g_cap/C-100n-0402")
-		(at 29.21 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1936989-373e-409e-8c74-7a114b6419ab")
-		(property "Reference" "C18"
-			(at 33.02 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 33.02 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 30.1752 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A104KA01D"
-			(at 29.21 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cap 100nF 50V 0402 X5R ±10%"
-			(at 29.21 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 29.21 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "100nF"
-			(at 29.21 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 29.21 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SPN" "81-GRM155R61H104KE9D"
-			(at 29.21 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "C-100n-0402"
-			(at 29.21 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C105882"
-			(at 29.21 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM155R61H104KE19"
-			(at 29.21 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 29.21 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 29.21 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Material" "X5R"
-			(at 29.21 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "lifecycle=Active"
-			(at 29.21 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b0e41d57-ff7f-4ee6-852b-c0a08fff8f08")
-		)
-		(pin "2"
-			(uuid "3d7e699d-ab13-427c-9f9b-4705343938e7")
-		)
-		(instances
-			(project "wius_new"
-				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#dzdb:g_res/R-100k-0402")
-		(at 181.61 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1f88409-2cab-4521-bb0f-1025e5f46b5b")
-		(property "Reference" "R31"
-			(at 184.15 39.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 184.15 41.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 179.832 40.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2RKF1003X"
-			(at 181.61 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Res 100kΩ 0.1W 0402 Thick Film 1%"
-			(at 181.61 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "0.1W"
-			(at 181.61 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 181.61 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resistance" "100k"
-			(at 181.61 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SPN" "667-ERJ-2RKF1003X"
-			(at 181.61 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C192169"
-			(at 181.61 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ERJ-2RKF1003X"
-			(at 181.61 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 181.61 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 181.61 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "R-100k-0402"
-			(at 181.61 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Material" "Thick Film"
-			(at 181.61 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "lifecycle=Active; TCR=±100ppm/°C"
-			(at 181.61 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "41917046-33b9-4903-931a-db3f24cfa015")
-		)
-		(pin "2"
-			(uuid "a5c4d61b-6705-4217-a7e4-781b577f4610")
-		)
-		(instances
-			(project "wius_new"
-				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "#dzdb:g_res/R-6k65-0402")
 		(at 156.21 168.91 0)
 		(unit 1)
@@ -20876,6 +20198,412 @@
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:g_cap/C-100n-0201")
+		(at 41.91 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5ed62b9-9946-41e2-9234-0c797a7933d4")
+		(property "Reference" "C20"
+			(at 45.72 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 45.72 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 42.8752 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM033R61A104ME15%23"
+			(at 41.91 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Cap 100nF 10V 0201 X5R ±20%"
+			(at 41.91 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 41.91 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 41.91 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 41.91 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 41.91 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "81-GRM033R61A104ME5D"
+			(at 41.91 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "C-100n-0201"
+			(at 41.91 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM033R61A104ME15"
+			(at 41.91 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 41.91 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 41.91 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "X5R"
+			(at 41.91 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active"
+			(at 41.91 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f7191e2-f2df-4190-85cb-0dd2ae0a6d41")
+		)
+		(pin "2"
+			(uuid "d5dd12be-3da9-43d2-ac3d-069b0da00ca9")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:g_cap/C-100n-0201")
+		(at 38.1 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da5fa125-9ddd-47bf-bca3-a8475b3f6766")
+		(property "Reference" "C37"
+			(at 41.91 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 41.91 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 39.0652 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM033R61A104ME15%23"
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Cap 100nF 10V 0201 X5R ±20%"
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "81-GRM033R61A104ME5D"
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "C-100n-0201"
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM033R61A104ME15"
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "X5R"
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active"
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98409546-c0ae-49e6-b33c-379cc334c4e1")
+		)
+		(pin "2"
+			(uuid "5da8ce80-eb6e-4126-8ea3-bc29c2ddb2a6")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -21085,8 +20813,8 @@
 		)
 	)
 	(symbol
-		(lib_id "#dzdb:g_cap/C-100n-0402")
-		(at 41.91 41.91 0)
+		(lib_id "#dzdb:g_cap/C-100n-0201")
+		(at 68.58 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21095,9 +20823,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dbaa798a-2170-4571-ab31-4956d72f752a")
-		(property "Reference" "C20"
-			(at 45.72 40.6399 0)
+		(uuid "dd54878f-5ff0-4756-b2bd-c6285333845c")
+		(property "Reference" "C22"
+			(at 72.39 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21108,7 +20836,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 45.72 43.1799 0)
+			(at 72.39 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21118,8 +20846,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 42.8752 45.72 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 69.5452 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21129,8 +20857,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A104KA01D"
-			(at 41.91 41.91 0)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM033R61A104ME15%23"
+			(at 68.58 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21140,8 +20868,8 @@
 				)
 			)
 		)
-		(property "Description" "Cap 100nF 50V 0402 X5R ±10%"
-			(at 41.91 41.91 0)
+		(property "Description" "Cap 100nF 10V 0201 X5R ±20%"
+			(at 68.58 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21151,8 +20879,8 @@
 				)
 			)
 		)
-		(property "Tolerance" "10%"
-			(at 41.91 41.91 0)
+		(property "LCSC" ""
+			(at 68.58 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21163,7 +20891,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 41.91 41.91 0)
+			(at 68.58 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21173,8 +20901,8 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
-			(at 41.91 41.91 0)
+		(property "Voltage" "10V"
+			(at 68.58 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21184,8 +20912,8 @@
 				)
 			)
 		)
-		(property "SPN" "81-GRM155R61H104KE9D"
-			(at 41.91 41.91 0)
+		(property "Tolerance" "20%"
+			(at 68.58 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21195,8 +20923,8 @@
 				)
 			)
 		)
-		(property "IPN" "C-100n-0402"
-			(at 41.91 41.91 0)
+		(property "SPN" "81-GRM033R61A104ME5D"
+			(at 68.58 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21206,8 +20934,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C105882"
-			(at 41.91 41.91 0)
+		(property "IPN" "C-100n-0201"
+			(at 68.58 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21217,8 +20945,8 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R61H104KE19"
-			(at 41.91 41.91 0)
+		(property "MPN" "GRM033R61A104ME15"
+			(at 68.58 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21229,7 +20957,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 41.91 41.91 0)
+			(at 68.58 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21240,7 +20968,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 41.91 41.91 0)
+			(at 68.58 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21251,7 +20979,7 @@
 			)
 		)
 		(property "Material" "X5R"
-			(at 41.91 41.91 0)
+			(at 68.58 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21262,7 +20990,7 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active"
-			(at 41.91 41.91 0)
+			(at 68.58 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21273,15 +21001,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f47bc394-dfa4-4679-b7f8-ce945915f98b")
+			(uuid "358cfa85-98a2-4f9f-a1e9-6c11b0b03f68")
 		)
 		(pin "2"
-			(uuid "9c9fc311-cecf-4e69-8c73-a4e567f0008d")
+			(uuid "904418dd-d092-4963-99f6-73be6ece8875")
 		)
 		(instances
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
-					(reference "C20")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -21437,208 +21165,6 @@
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
 					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#dzdb:g_cap/C-100n-0603")
-		(at 38.1 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e580ee33-7ac6-4812-8e13-edbb85d0a9da")
-		(property "Reference" "C37"
-			(at 41.148 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 40.894 107.696 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 39.0652 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM188R71H104KA57J"
-			(at 38.1 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cap 100nF 50V 0603 X7R ±10%"
-			(at 38.1 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 38.1 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "100nF"
-			(at 38.1 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 38.1 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SPN" "81-GCM188R71H104KA7J"
-			(at 38.1 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "C-100n-0603"
-			(at 38.1 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 38.1 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GCM188R71H104KA57"
-			(at 38.1 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 38.1 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 38.1 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Material" "X7R"
-			(at 38.1 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "lifecycle=Active"
-			(at 38.1 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e3aa8683-43f8-480b-bb24-0e7395ab92e3")
-		)
-		(pin "2"
-			(uuid "aa4d4464-8bde-419e-b2f9-30092e751b76")
-		)
-		(instances
-			(project "wius_new"
-				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
-					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -21919,6 +21445,209 @@
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:g_cap/C-100n-0201")
+		(at 54.61 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4ec6acf-4f11-4123-bb01-0f8a8b7bd875")
+		(property "Reference" "C21"
+			(at 58.42 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 58.42 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 55.5752 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM033R61A104ME15%23"
+			(at 54.61 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Cap 100nF 10V 0201 X5R ±20%"
+			(at 54.61 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 54.61 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 54.61 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 54.61 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 54.61 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "81-GRM033R61A104ME5D"
+			(at 54.61 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "C-100n-0201"
+			(at 54.61 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM033R61A104ME15"
+			(at 54.61 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 54.61 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 54.61 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "X5R"
+			(at 54.61 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active"
+			(at 54.61 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d68be9e-30d7-4272-8c62-b06eaa28616b")
+		)
+		(pin "2"
+			(uuid "5d077218-0bf1-4964-894a-4b7cb251bd0a")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/f56cbe0a-9129-41bf-b268-cb28a87edbe6"
+					(reference "C21")
 					(unit 1)
 				)
 			)

@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -519,10 +519,10 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.18,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
@@ -533,7 +533,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "tuning_profile": "",
-        "via_diameter": 0.45,
+        "via_diameter": 0.4,
         "via_drill": 0.2
       },
       {
@@ -758,7 +758,7 @@
         "uuid": "8543d6cf-82a6-4fc5-8760-a0773a1d6e4c"
       }
     ],
-    "used_designators": "R28,R38-39",
+    "used_designators": "R13-14,R17,R20,R28,R31,R38-40,R61-63,C6,C10-11,C15-18,C20-22,C25,C28,C30-32,C34-43",
     "variants": [
       {
         "name": "all_1v8"

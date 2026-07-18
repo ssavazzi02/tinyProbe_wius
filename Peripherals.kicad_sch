@@ -5,7 +5,7 @@
 	(uuid "499045b8-a580-43e3-aaa5-32c193fbc237")
 	(paper "A4")
 	(lib_symbols
-		(symbol "#dzdb:g_cap/C-100n-0603"
+		(symbol "#dzdb:g_cap/C-100n-0201"
 			(pin_numbers
 				(hide yes)
 			)
@@ -39,7 +39,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 				(at 0.9652 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -50,7 +50,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM188R71H104KA57J"
+			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM033R61A104ME15%23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -61,7 +61,7 @@
 					)
 				)
 			)
-			(property "Description" "Cap 100nF 50V 0603 X7R ±10%"
+			(property "Description" "Cap 100nF 10V 0201 X5R ±20%"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -72,7 +72,7 @@
 					)
 				)
 			)
-			(property "Tolerance" "10%"
+			(property "LCSC" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -94,7 +94,7 @@
 					)
 				)
 			)
-			(property "Voltage" "50V"
+			(property "Voltage" "10V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -105,7 +105,7 @@
 					)
 				)
 			)
-			(property "SPN" "81-GCM188R71H104KA7J"
+			(property "Tolerance" "20%"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -116,7 +116,7 @@
 					)
 				)
 			)
-			(property "IPN" "C-100n-0603"
+			(property "SPN" "81-GRM033R61A104ME5D"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -127,7 +127,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C14663"
+			(property "IPN" "C-100n-0201"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -138,7 +138,7 @@
 					)
 				)
 			)
-			(property "MPN" "GCM188R71H104KA57"
+			(property "MPN" "GRM033R61A104ME15"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -171,7 +171,7 @@
 					)
 				)
 			)
-			(property "Material" "X7R"
+			(property "Material" "X5R"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -204,7 +204,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Capacitor_SMD:C_0603_1608Metric"
+			(property "ki_fp_filters" "Capacitor_SMD:C_0201_0603Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -215,7 +215,7 @@
 					)
 				)
 			)
-			(symbol "g_cap/C-100n-0603_0_1"
+			(symbol "g_cap/C-100n-0201_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -241,7 +241,7 @@
 					)
 				)
 			)
-			(symbol "g_cap/C-100n-0603_1_1"
+			(symbol "g_cap/C-100n-0201_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -557,7 +557,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "#dzdb:g_res/R-100k-0402"
+		(symbol "#dzdb:g_res/R-100K-0201"
 			(pin_numbers
 				(hide yes)
 			)
@@ -589,7 +589,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 				(at -1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -600,7 +600,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2RKF1003X"
+			(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GJF1003C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -611,7 +611,7 @@
 					)
 				)
 			)
-			(property "Description" "Res 100kΩ 0.1W 0402 Thick Film 1%"
+			(property "Description" "Res 100 kΩ 0201 0.05W Thick Film ±1%"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -622,7 +622,7 @@
 					)
 				)
 			)
-			(property "Power" "0.1W"
+			(property "Power" "0.05W"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -655,7 +655,7 @@
 					)
 				)
 			)
-			(property "SPN" "667-ERJ-2RKF1003X"
+			(property "SPN" "667-ERJ-1GJF1003C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -666,7 +666,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C192169"
+			(property "LCSC" "C20021045"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -677,7 +677,7 @@
 					)
 				)
 			)
-			(property "MPN" "ERJ-2RKF1003X"
+			(property "MPN" "ERJ-1GJF1003C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -710,7 +710,7 @@
 					)
 				)
 			)
-			(property "IPN" "R-100k-0402"
+			(property "IPN" "R-100K-0201"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -732,7 +732,7 @@
 					)
 				)
 			)
-			(property "Comment" "lifecycle=Active; TCR=±100ppm/°C"
+			(property "Comment" "lifecycle=Active;note=AEC-Q200 compliant;TCR=±200ppm/°C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -754,7 +754,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Resistor_SMD:R_0402_1005Metric"
+			(property "ki_fp_filters" "Resistor_SMD:R_0201_0603Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -765,7 +765,7 @@
 					)
 				)
 			)
-			(symbol "g_res/R-100k-0402_0_1"
+			(symbol "g_res/R-100K-0201_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -778,7 +778,7 @@
 					)
 				)
 			)
-			(symbol "g_res/R-100k-0402_1_1"
+			(symbol "g_res/R-100K-0201_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -818,7 +818,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "#dzdb:g_res/R-10k-0402"
+		(symbol "#dzdb:g_res/R-10K-0201"
 			(pin_numbers
 				(hide yes)
 			)
@@ -850,7 +850,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 				(at -1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -861,7 +861,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2RKF1002X"
+			(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GJF1002C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -872,7 +872,7 @@
 					)
 				)
 			)
-			(property "Description" "Res 10kΩ 0.1W 0402 Thick Film 1%"
+			(property "Description" "Res 10 kΩ 0201 0.05W Thick Film ±1%"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -883,7 +883,7 @@
 					)
 				)
 			)
-			(property "Power" "0.1W"
+			(property "Power" "0.05W"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -916,7 +916,7 @@
 					)
 				)
 			)
-			(property "SPN" "667-ERJ-2RKF1002X"
+			(property "SPN" "667-ERJ-1GJF1002C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -927,7 +927,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C191123"
+			(property "LCSC" "C20021044"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -938,7 +938,7 @@
 					)
 				)
 			)
-			(property "MPN" "ERJ-2RKF1002X"
+			(property "MPN" "ERJ-1GJF1002C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -971,7 +971,7 @@
 					)
 				)
 			)
-			(property "IPN" "R-10k-0402"
+			(property "IPN" "R-10K-0201"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -993,7 +993,7 @@
 					)
 				)
 			)
-			(property "Comment" "lifecycle=Active; TCR=±100ppm/°C"
+			(property "Comment" "lifecycle=Active;note=AEC-Q200 compliant;TCR=±200ppm/°C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1015,7 +1015,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Resistor_SMD:R_0402_1005Metric"
+			(property "ki_fp_filters" "Resistor_SMD:R_0201_0603Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1026,7 +1026,7 @@
 					)
 				)
 			)
-			(symbol "g_res/R-10k-0402_0_1"
+			(symbol "g_res/R-10K-0201_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -1039,7 +1039,7 @@
 					)
 				)
 			)
-			(symbol "g_res/R-10k-0402_1_1"
+			(symbol "g_res/R-10K-0201_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -3400,7 +3400,7 @@
 	)
 	(text_box "change all 100 nf caps to 0201 size"
 		(exclude_from_sim no)
-		(at 59.69 97.79 0)
+		(at -49.53 88.9 0)
 		(size 82.55 24.13)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3420,6 +3420,12 @@
 		(uuid "fd440bb8-f868-49ec-ae6e-2b0b72ac5e1a")
 	)
 	(junction
+		(at 185.42 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "084c5ced-676a-4763-b267-f81cfdbfa8e3")
+	)
+	(junction
 		(at 172.72 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3430,12 +3436,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a819a25-a58f-4e05-a40d-340b3b70d2b2")
-	)
-	(junction
-		(at 185.42 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e1fb558-a638-427e-b486-d38506631d49")
 	)
 	(junction
 		(at 59.69 123.19)
@@ -3678,16 +3678,6 @@
 			(type default)
 		)
 		(uuid "18c6b183-4fc3-4404-b8a8-ccd79e68d059")
-	)
-	(wire
-		(pts
-			(xy 185.42 31.75) (xy 196.85 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c0c46b4-9bc7-43b3-8299-874237110037")
 	)
 	(wire
 		(pts
@@ -4581,6 +4571,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 31.75) (xy 196.85 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd780727-e458-412d-b372-c0c1c09a9b06")
+	)
+	(wire
+		(pts
 			(xy 86.36 107.95) (xy 86.36 118.11)
 		)
 		(stroke
@@ -5140,208 +5140,6 @@
 		)
 	)
 	(symbol
-		(lib_id "#dzdb:g_cap/C-100n-0603")
-		(at 72.39 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "08cc06e1-7f58-4356-aee6-b6b80810bfa2")
-		(property "Reference" "C25"
-			(at 75.438 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 75.184 46.736 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 73.3552 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM188R71H104KA57J"
-			(at 72.39 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cap 100nF 50V 0603 X7R ±10%"
-			(at 72.39 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 72.39 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "100nF"
-			(at 72.39 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 72.39 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SPN" "81-GCM188R71H104KA7J"
-			(at 72.39 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "C-100n-0603"
-			(at 72.39 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 72.39 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GCM188R71H104KA57"
-			(at 72.39 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 72.39 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 72.39 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Material" "X7R"
-			(at 72.39 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "lifecycle=Active"
-			(at 72.39 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5b7027b1-7031-42ba-a3d2-aba2bd84f5b9")
-		)
-		(pin "2"
-			(uuid "68240b4c-8f0b-4861-9b50-a45a3575a5fa")
-		)
-		(instances
-			(project "wius_new"
-				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 185.42 40.64 0)
 		(unit 1)
@@ -5413,410 +5211,6 @@
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
 					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#dzdb:g_res/R-10k-0402")
-		(at 180.34 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1304e960-2ec3-4460-90ed-2075c27e9dfd")
-		(property "Reference" "R38"
-			(at 175.006 56.896 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 175.006 59.436 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 178.562 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2RKF1002X"
-			(at 180.34 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Res 10kΩ 0.1W 0402 Thick Film 1%"
-			(at 180.34 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "0.1W"
-			(at 180.34 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 180.34 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resistance" "10k"
-			(at 180.34 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SPN" "667-ERJ-2RKF1002X"
-			(at 180.34 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C191123"
-			(at 180.34 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ERJ-2RKF1002X"
-			(at 180.34 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 180.34 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 180.34 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "R-10k-0402"
-			(at 180.34 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Material" "Thick Film"
-			(at 180.34 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "lifecycle=Active; TCR=±100ppm/°C"
-			(at 180.34 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b6f051a8-51cd-4923-b432-8b3f232ad21c")
-		)
-		(pin "2"
-			(uuid "39459a2c-ce02-4284-9621-08911aa0fc6b")
-		)
-		(instances
-			(project "wius_new"
-				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#dzdb:g_res/R-10k-0402")
-		(at 172.72 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "13ad1689-bd20-49be-8551-11c48d12640f")
-		(property "Reference" "R28"
-			(at 167.386 56.896 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 167.386 59.436 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 170.942 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2RKF1002X"
-			(at 172.72 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Res 10kΩ 0.1W 0402 Thick Film 1%"
-			(at 172.72 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "0.1W"
-			(at 172.72 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 172.72 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resistance" "10k"
-			(at 172.72 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SPN" "667-ERJ-2RKF1002X"
-			(at 172.72 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C191123"
-			(at 172.72 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ERJ-2RKF1002X"
-			(at 172.72 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 172.72 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 172.72 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "R-10k-0402"
-			(at 172.72 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Material" "Thick Film"
-			(at 172.72 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "lifecycle=Active; TCR=±100ppm/°C"
-			(at 172.72 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5112b78b-da67-4d58-8dca-7a320d81b4ec")
-		)
-		(pin "2"
-			(uuid "2e2c0d86-99b7-40b4-88e6-5c31d555390c")
-		)
-		(instances
-			(project "wius_new"
-				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
-					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -6057,209 +5451,6 @@
 		)
 	)
 	(symbol
-		(lib_id "#dzdb:g_res/R-10k-0402")
-		(at 217.17 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1730ce5a-4430-4bfb-8312-02c8b23a6e79")
-		(property "Reference" "R10"
-			(at 219.71 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 219.71 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 215.392 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2RKF1002X"
-			(at 217.17 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Res 10kΩ 0.1W 0402 Thick Film 1%"
-			(at 217.17 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "0.1W"
-			(at 217.17 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 217.17 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resistance" "10k"
-			(at 217.17 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SPN" "667-ERJ-2RKF1002X"
-			(at 217.17 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C191123"
-			(at 217.17 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ERJ-2RKF1002X"
-			(at 217.17 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 217.17 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 217.17 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "R-10k-0402"
-			(at 217.17 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Material" "Thick Film"
-			(at 217.17 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "lifecycle=Active; TCR=±100ppm/°C"
-			(at 217.17 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5c8b36c6-8900-459e-aa07-248950fb38b6")
-		)
-		(pin "2"
-			(uuid "537f3559-b312-4d5f-bf01-8afa33ec347b")
-		)
-		(instances
-			(project "wius_new"
-				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 172.72 52.07 0)
 		(unit 1)
@@ -6338,8 +5529,8 @@
 		)
 	)
 	(symbol
-		(lib_id "#dzdb:g_cap/C-100n-0603")
-		(at 76.2 111.76 0)
+		(lib_id "#dzdb:g_cap/C-100n-0201")
+		(at 105.41 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6347,9 +5538,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1e8cd717-f462-4422-886a-61987016b498")
-		(property "Reference" "C30"
-			(at 79.248 110.49 0)
+		(fields_autoplaced yes)
+		(uuid "18635f39-ce2a-441a-8f5c-abc6e3f9c12d")
+		(property "Reference" "C6"
+			(at 109.22 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6360,7 +5552,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 78.994 112.776 0)
+			(at 109.22 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6370,8 +5562,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 77.1652 115.57 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 106.3752 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6381,8 +5573,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM188R71H104KA57J"
-			(at 76.2 111.76 0)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM033R61A104ME15%23"
+			(at 105.41 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6392,8 +5584,8 @@
 				)
 			)
 		)
-		(property "Description" "Cap 100nF 50V 0603 X7R ±10%"
-			(at 76.2 111.76 0)
+		(property "Description" "Cap 100nF 10V 0201 X5R ±20%"
+			(at 105.41 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6403,8 +5595,8 @@
 				)
 			)
 		)
-		(property "Tolerance" "10%"
-			(at 76.2 111.76 0)
+		(property "LCSC" ""
+			(at 105.41 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6415,7 +5607,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 76.2 111.76 0)
+			(at 105.41 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6425,8 +5617,8 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
-			(at 76.2 111.76 0)
+		(property "Voltage" "10V"
+			(at 105.41 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6436,8 +5628,8 @@
 				)
 			)
 		)
-		(property "SPN" "81-GCM188R71H104KA7J"
-			(at 76.2 111.76 0)
+		(property "Tolerance" "20%"
+			(at 105.41 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6447,8 +5639,8 @@
 				)
 			)
 		)
-		(property "IPN" "C-100n-0603"
-			(at 76.2 111.76 0)
+		(property "SPN" "81-GRM033R61A104ME5D"
+			(at 105.41 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6458,8 +5650,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
-			(at 76.2 111.76 0)
+		(property "IPN" "C-100n-0201"
+			(at 105.41 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6469,8 +5661,8 @@
 				)
 			)
 		)
-		(property "MPN" "GCM188R71H104KA57"
-			(at 76.2 111.76 0)
+		(property "MPN" "GRM033R61A104ME15"
+			(at 105.41 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6481,7 +5673,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 76.2 111.76 0)
+			(at 105.41 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6492,7 +5684,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 76.2 111.76 0)
+			(at 105.41 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6502,8 +5694,8 @@
 				)
 			)
 		)
-		(property "Material" "X7R"
-			(at 76.2 111.76 0)
+		(property "Material" "X5R"
+			(at 105.41 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6514,7 +5706,7 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active"
-			(at 76.2 111.76 0)
+			(at 105.41 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6525,15 +5717,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d3d3cbb3-e9f8-4fe8-9433-239e9e8f6247")
+			(uuid "cb6f353c-1ade-462a-bc33-612930069dd1")
 		)
 		(pin "2"
-			(uuid "5b77a766-2ae7-4b80-94d4-75b4162a554a")
+			(uuid "3bb6c297-b63c-4a1d-afab-a0227c8f9965")
 		)
 		(instances
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
-					(reference "C30")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6611,209 +5803,6 @@
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
 					(reference "#PWR0160")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#dzdb:g_res/R-10k-0402")
-		(at 86.36 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ffa02de-fe83-4946-8a68-88f8aae3356c")
-		(property "Reference" "R8"
-			(at 88.9 52.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 88.9 54.6099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 84.582 53.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2RKF1002X"
-			(at 86.36 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Res 10kΩ 0.1W 0402 Thick Film 1%"
-			(at 86.36 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "0.1W"
-			(at 86.36 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 86.36 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resistance" "10k"
-			(at 86.36 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SPN" "667-ERJ-2RKF1002X"
-			(at 86.36 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C191123"
-			(at 86.36 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ERJ-2RKF1002X"
-			(at 86.36 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 86.36 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 86.36 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "R-10k-0402"
-			(at 86.36 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Material" "Thick Film"
-			(at 86.36 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "lifecycle=Active; TCR=±100ppm/°C"
-			(at 86.36 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "85675570-657f-4b66-9c59-3cff6c1e2a61")
-		)
-		(pin "2"
-			(uuid "aaa107f5-edf9-417e-a6fb-4412a942697a")
-		)
-		(instances
-			(project "wius_new"
-				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6970,209 +5959,6 @@
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
 					(reference "#PWR0147")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#dzdb:g_res/R-100k-0402")
-		(at 59.69 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d917b88-2cb8-4a53-b7e4-755ab5133188")
-		(property "Reference" "R14"
-			(at 62.23 115.5699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 62.23 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 57.912 116.84 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2RKF1003X"
-			(at 59.69 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Res 100kΩ 0.1W 0402 Thick Film 1%"
-			(at 59.69 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "0.1W"
-			(at 59.69 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 59.69 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resistance" "100k"
-			(at 59.69 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SPN" "667-ERJ-2RKF1003X"
-			(at 59.69 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C192169"
-			(at 59.69 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ERJ-2RKF1003X"
-			(at 59.69 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 59.69 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 59.69 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "R-100k-0402"
-			(at 59.69 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Material" "Thick Film"
-			(at 59.69 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "lifecycle=Active; TCR=±100ppm/°C"
-			(at 59.69 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e925cf0-5940-48fd-9cea-94a4fef6dbe2")
-		)
-		(pin "2"
-			(uuid "a7f6b84a-cc71-48ab-a824-2f16330648a4")
-		)
-		(instances
-			(project "wius_new"
-				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7379,8 +6165,8 @@
 		)
 	)
 	(symbol
-		(lib_id "#dzdb:g_cap/C-100n-0603")
-		(at 105.41 111.76 0)
+		(lib_id "#dzdb:g_cap/C-100n-0201")
+		(at 40.64 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7388,9 +6174,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "32a8389a-1d4d-4f98-be2b-efcf00012184")
-		(property "Reference" "C31"
-			(at 108.458 110.49 0)
+		(fields_autoplaced yes)
+		(uuid "307d3b41-921b-4627-8cae-9f12eb96d0fb")
+		(property "Reference" "C11"
+			(at 44.45 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7401,7 +6188,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 108.204 112.776 0)
+			(at 44.45 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7411,8 +6198,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 106.3752 115.57 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 41.6052 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7422,8 +6209,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM188R71H104KA57J"
-			(at 105.41 111.76 0)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM033R61A104ME15%23"
+			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7433,8 +6220,8 @@
 				)
 			)
 		)
-		(property "Description" "Cap 100nF 50V 0603 X7R ±10%"
-			(at 105.41 111.76 0)
+		(property "Description" "Cap 100nF 10V 0201 X5R ±20%"
+			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7444,8 +6231,8 @@
 				)
 			)
 		)
-		(property "Tolerance" "10%"
-			(at 105.41 111.76 0)
+		(property "LCSC" ""
+			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7456,7 +6243,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 105.41 111.76 0)
+			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7466,8 +6253,8 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
-			(at 105.41 111.76 0)
+		(property "Voltage" "10V"
+			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7477,8 +6264,8 @@
 				)
 			)
 		)
-		(property "SPN" "81-GCM188R71H104KA7J"
-			(at 105.41 111.76 0)
+		(property "Tolerance" "20%"
+			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7488,8 +6275,8 @@
 				)
 			)
 		)
-		(property "IPN" "C-100n-0603"
-			(at 105.41 111.76 0)
+		(property "SPN" "81-GRM033R61A104ME5D"
+			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7499,8 +6286,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
-			(at 105.41 111.76 0)
+		(property "IPN" "C-100n-0201"
+			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7510,8 +6297,8 @@
 				)
 			)
 		)
-		(property "MPN" "GCM188R71H104KA57"
-			(at 105.41 111.76 0)
+		(property "MPN" "GRM033R61A104ME15"
+			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7522,7 +6309,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 105.41 111.76 0)
+			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7533,7 +6320,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 105.41 111.76 0)
+			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7543,8 +6330,8 @@
 				)
 			)
 		)
-		(property "Material" "X7R"
-			(at 105.41 111.76 0)
+		(property "Material" "X5R"
+			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7555,7 +6342,7 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active"
-			(at 105.41 111.76 0)
+			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7566,15 +6353,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9058bd92-f3f3-479c-b609-f88ac8e39b42")
+			(uuid "69e75cfa-2282-4593-b9aa-3cfb1a3b719c")
 		)
 		(pin "2"
-			(uuid "eadf8440-fd86-4f8e-a59f-2871d7f06212")
+			(uuid "ba71d52a-d576-4039-a69e-84734f7656ca")
 		)
 		(instances
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
-					(reference "C31")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -7854,6 +6641,209 @@
 		)
 	)
 	(symbol
+		(lib_id "#dzdb:g_cap/C-100n-0201")
+		(at 72.39 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44a63fac-cd1b-41f8-8894-cdd7307e173f")
+		(property "Reference" "C16"
+			(at 76.2 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 76.2 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 73.3552 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM033R61A104ME15%23"
+			(at 72.39 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Cap 100nF 10V 0201 X5R ±20%"
+			(at 72.39 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 72.39 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 72.39 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 72.39 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 72.39 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "81-GRM033R61A104ME5D"
+			(at 72.39 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "C-100n-0201"
+			(at 72.39 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM033R61A104ME15"
+			(at 72.39 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 72.39 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 72.39 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "X5R"
+			(at 72.39 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active"
+			(at 72.39 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a932373e-9597-4ee5-9b13-4eefa04223b2")
+		)
+		(pin "2"
+			(uuid "4ef1a600-13da-4b0b-9a8c-1e4883f42dc2")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 186.69 52.07 0)
 		(unit 1)
@@ -8009,8 +6999,8 @@
 		)
 	)
 	(symbol
-		(lib_id "#dzdb:g_cap/C-100n-0603")
-		(at 185.42 35.56 0)
+		(lib_id "#dzdb:g_res/R-10K-0201")
+		(at 186.69 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8018,9 +7008,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4c816348-85ae-450f-aef3-a245b07cb9be")
-		(property "Reference" "C28"
-			(at 188.468 34.29 0)
+		(fields_autoplaced yes)
+		(uuid "5281f6c2-3adc-4bdb-b6cc-34640e24f733")
+		(property "Reference" "R31"
+			(at 189.23 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8030,8 +7021,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 188.214 36.576 0)
+		(property "Value" "10k"
+			(at 189.23 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8041,8 +7032,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 186.3852 39.37 0)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 184.912 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8052,8 +7043,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM188R71H104KA57J"
-			(at 185.42 35.56 0)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GJF1002C"
+			(at 186.69 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8063,8 +7054,8 @@
 				)
 			)
 		)
-		(property "Description" "Cap 100nF 50V 0603 X7R ±10%"
-			(at 185.42 35.56 0)
+		(property "Description" "Res 10 kΩ 0201 0.05W Thick Film ±1%"
+			(at 186.69 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8074,8 +7065,8 @@
 				)
 			)
 		)
-		(property "Tolerance" "10%"
-			(at 185.42 35.56 0)
+		(property "Power" "0.05W"
+			(at 186.69 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8085,8 +7076,8 @@
 				)
 			)
 		)
-		(property "Capacitance" "100nF"
-			(at 185.42 35.56 0)
+		(property "Tolerance" "1%"
+			(at 186.69 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8096,8 +7087,8 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
-			(at 185.42 35.56 0)
+		(property "Resistance" "10k"
+			(at 186.69 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8107,8 +7098,8 @@
 				)
 			)
 		)
-		(property "SPN" "81-GCM188R71H104KA7J"
-			(at 185.42 35.56 0)
+		(property "SPN" "667-ERJ-1GJF1002C"
+			(at 186.69 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8118,8 +7109,8 @@
 				)
 			)
 		)
-		(property "IPN" "C-100n-0603"
-			(at 185.42 35.56 0)
+		(property "LCSC" "C20021044"
+			(at 186.69 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8129,19 +7120,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
-			(at 185.42 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GCM188R71H104KA57"
-			(at 185.42 35.56 0)
+		(property "MPN" "ERJ-1GJF1002C"
+			(at 186.69 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8152,7 +7132,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 185.42 35.56 0)
+			(at 186.69 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8162,8 +7142,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 185.42 35.56 0)
+		(property "Manufacturer" "Panasonic"
+			(at 186.69 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8173,8 +7153,8 @@
 				)
 			)
 		)
-		(property "Material" "X7R"
-			(at 185.42 35.56 0)
+		(property "IPN" "R-10K-0201"
+			(at 186.69 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8184,8 +7164,19 @@
 				)
 			)
 		)
-		(property "Comment" "lifecycle=Active"
-			(at 185.42 35.56 0)
+		(property "Material" "Thick Film"
+			(at 186.69 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active;note=AEC-Q200 compliant;TCR=±200ppm/°C"
+			(at 186.69 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8196,15 +7187,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6128bd4-4ba4-4d30-8530-2b358cb39804")
+			(uuid "46ead998-cdde-40a5-b05b-e76375023a7a")
 		)
 		(pin "2"
-			(uuid "1a67a50c-4bad-436a-8984-f625c8809535")
+			(uuid "43a16ea2-67c8-471c-91f7-6b45f91d5672")
 		)
 		(instances
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
-					(reference "C28")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -8288,7 +7279,210 @@
 		)
 	)
 	(symbol
-		(lib_id "#dzdb:g_res/R-10k-0402")
+		(lib_id "#dzdb:g_cap/C-100n-0201")
+		(at 76.2 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e3cfe23-2900-4f26-9803-d524bc230aa4")
+		(property "Reference" "C15"
+			(at 80.01 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 80.01 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 77.1652 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM033R61A104ME15%23"
+			(at 76.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Cap 100nF 10V 0201 X5R ±20%"
+			(at 76.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 76.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 76.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 76.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 76.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "81-GRM033R61A104ME5D"
+			(at 76.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "C-100n-0201"
+			(at 76.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM033R61A104ME15"
+			(at 76.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 76.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 76.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "X5R"
+			(at 76.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active"
+			(at 76.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93eb741a-c116-4326-9eff-095cfe340eaf")
+		)
+		(pin "2"
+			(uuid "94db48c1-2438-4b26-b576-31346fc98fa1")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:g_res/R-10K-0201")
 		(at 95.25 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -8298,8 +7492,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "768353ac-cf62-48f9-9256-b3c6357b01fc")
-		(property "Reference" "R9"
+		(uuid "68428117-a206-425e-932b-ad0a8b2d514a")
+		(property "Reference" "R39"
 			(at 97.79 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8321,7 +7515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 93.472 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -8332,7 +7526,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2RKF1002X"
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GJF1002C"
 			(at 95.25 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8343,7 +7537,7 @@
 				)
 			)
 		)
-		(property "Description" "Res 10kΩ 0.1W 0402 Thick Film 1%"
+		(property "Description" "Res 10 kΩ 0201 0.05W Thick Film ±1%"
 			(at 95.25 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8354,7 +7548,7 @@
 				)
 			)
 		)
-		(property "Power" "0.1W"
+		(property "Power" "0.05W"
 			(at 95.25 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8387,7 +7581,7 @@
 				)
 			)
 		)
-		(property "SPN" "667-ERJ-2RKF1002X"
+		(property "SPN" "667-ERJ-1GJF1002C"
 			(at 95.25 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8398,7 +7592,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C191123"
+		(property "LCSC" "C20021044"
 			(at 95.25 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8409,7 +7603,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF1002X"
+		(property "MPN" "ERJ-1GJF1002C"
 			(at 95.25 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8442,7 +7636,7 @@
 				)
 			)
 		)
-		(property "IPN" "R-10k-0402"
+		(property "IPN" "R-10K-0201"
 			(at 95.25 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8464,7 +7658,7 @@
 				)
 			)
 		)
-		(property "Comment" "lifecycle=Active; TCR=±100ppm/°C"
+		(property "Comment" "lifecycle=Active;note=AEC-Q200 compliant;TCR=±200ppm/°C"
 			(at 95.25 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8476,15 +7670,218 @@
 			)
 		)
 		(pin "1"
-			(uuid "89bbb057-3868-42d6-a031-302cf5198b16")
+			(uuid "ac4f79f7-aef4-4452-8113-0a8c983fe7ed")
 		)
 		(pin "2"
-			(uuid "dcad4542-d42c-4b92-bb32-a1566f58e670")
+			(uuid "b4723d5a-75dd-40e6-b418-47181e755b29")
 		)
 		(instances
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
-					(reference "R9")
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:g_res/R-10K-0201")
+		(at 212.09 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f0e9853-46f0-4ea7-8f3b-05c084aa43c1")
+		(property "Reference" "R14"
+			(at 214.63 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 214.63 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 210.312 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GJF1002C"
+			(at 212.09 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Res 10 kΩ 0201 0.05W Thick Film ±1%"
+			(at 212.09 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.05W"
+			(at 212.09 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 212.09 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "10k"
+			(at 212.09 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "667-ERJ-1GJF1002C"
+			(at 212.09 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20021044"
+			(at 212.09 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-1GJF1002C"
+			(at 212.09 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 212.09 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 212.09 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "R-10K-0201"
+			(at 212.09 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "Thick Film"
+			(at 212.09 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active;note=AEC-Q200 compliant;TCR=±200ppm/°C"
+			(at 212.09 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e2d9aa5-e87f-4bbc-982f-f00c2475ce60")
+		)
+		(pin "2"
+			(uuid "37d4d12a-c12c-41d3-a566-8aa63684eebb")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8640,6 +8037,209 @@
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
 					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:g_res/R-10K-0201")
+		(at 86.36 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8518fbbc-a2a1-4499-a490-2d64ffba34f9")
+		(property "Reference" "R63"
+			(at 88.9 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 88.9 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 84.582 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GJF1002C"
+			(at 86.36 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Res 10 kΩ 0201 0.05W Thick Film ±1%"
+			(at 86.36 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.05W"
+			(at 86.36 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 86.36 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "10k"
+			(at 86.36 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "667-ERJ-1GJF1002C"
+			(at 86.36 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20021044"
+			(at 86.36 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-1GJF1002C"
+			(at 86.36 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 86.36 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 86.36 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "R-10K-0201"
+			(at 86.36 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "Thick Film"
+			(at 86.36 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active;note=AEC-Q200 compliant;TCR=±200ppm/°C"
+			(at 86.36 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0986766-bf28-4e59-9573-4059f219ba58")
+		)
+		(pin "2"
+			(uuid "c7e0bf4a-471c-48b2-a214-b3fe82c0c8b6")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -9194,6 +8794,412 @@
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:g_res/R-100K-0201")
+		(at 59.69 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ed958bd-951d-436d-8078-3b918ce219bd")
+		(property "Reference" "R61"
+			(at 62.23 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 62.23 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 57.912 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GJF1003C"
+			(at 59.69 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Res 100 kΩ 0201 0.05W Thick Film ±1%"
+			(at 59.69 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.05W"
+			(at 59.69 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 59.69 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "100k"
+			(at 59.69 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "667-ERJ-1GJF1003C"
+			(at 59.69 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20021045"
+			(at 59.69 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-1GJF1003C"
+			(at 59.69 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 59.69 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 59.69 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "R-100K-0201"
+			(at 59.69 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "Thick Film"
+			(at 59.69 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active;note=AEC-Q200 compliant;TCR=±200ppm/°C"
+			(at 59.69 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd7ae45d-074b-430f-bb3e-f22b96a3a392")
+		)
+		(pin "2"
+			(uuid "25bda64c-0381-4439-aa55-c805af273dae")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:g_res/R-10K-0201")
+		(at 217.17 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ef9ae0f-b816-46df-8ee4-7b50aba1bf29")
+		(property "Reference" "R13"
+			(at 219.71 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 219.71 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 215.392 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GJF1002C"
+			(at 217.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Res 10 kΩ 0201 0.05W Thick Film ±1%"
+			(at 217.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.05W"
+			(at 217.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 217.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "10k"
+			(at 217.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "667-ERJ-1GJF1002C"
+			(at 217.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20021044"
+			(at 217.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-1GJF1002C"
+			(at 217.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 217.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 217.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "R-10K-0201"
+			(at 217.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "Thick Film"
+			(at 217.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active;note=AEC-Q200 compliant;TCR=±200ppm/°C"
+			(at 217.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95d10157-e4eb-4260-bbdb-0a7fba53f9e5")
+		)
+		(pin "2"
+			(uuid "e8d9c5ba-b0d9-4a7b-ad29-b09b2fb77f10")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -9834,6 +9840,209 @@
 		)
 	)
 	(symbol
+		(lib_id "#dzdb:g_res/R-10K-0201")
+		(at 204.47 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbb0af47-8441-40b0-b1a3-8d7cfb6c77bb")
+		(property "Reference" "R17"
+			(at 207.01 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 207.01 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 202.692 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GJF1002C"
+			(at 204.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Res 10 kΩ 0201 0.05W Thick Film ±1%"
+			(at 204.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.05W"
+			(at 204.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 204.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "10k"
+			(at 204.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SPN" "667-ERJ-1GJF1002C"
+			(at 204.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20021044"
+			(at 204.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-1GJF1002C"
+			(at 204.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 204.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 204.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" "R-10K-0201"
+			(at 204.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "Thick Film"
+			(at 204.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active;note=AEC-Q200 compliant;TCR=±200ppm/°C"
+			(at 204.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e494153-2fe4-47ec-a25b-cfd1e6691618")
+		)
+		(pin "2"
+			(uuid "b6c09746-e9d8-4b20-af77-3bbaadc38755")
+		)
+		(instances
+			(project "wius_new"
+				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 17.78 123.19 0)
 		(unit 1)
@@ -9983,208 +10192,6 @@
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
 					(reference "#PWR0133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#dzdb:g_res/R-10k-0402")
-		(at 186.69 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c133468c-4bdc-4e3f-8204-952d4b43b4e0")
-		(property "Reference" "R39"
-			(at 181.356 56.896 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 181.356 59.436 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 184.912 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2RKF1002X"
-			(at 186.69 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Res 10kΩ 0.1W 0402 Thick Film 1%"
-			(at 186.69 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "0.1W"
-			(at 186.69 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 186.69 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resistance" "10k"
-			(at 186.69 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SPN" "667-ERJ-2RKF1002X"
-			(at 186.69 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C191123"
-			(at 186.69 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ERJ-2RKF1002X"
-			(at 186.69 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 186.69 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 186.69 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "R-10k-0402"
-			(at 186.69 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Material" "Thick Film"
-			(at 186.69 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "lifecycle=Active; TCR=±100ppm/°C"
-			(at 186.69 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ab9795e5-79ea-43bc-9145-96fede71d5ed")
-		)
-		(pin "2"
-			(uuid "d64bcf3c-01d5-4e18-ab2c-a82fd3a96b3e")
-		)
-		(instances
-			(project "wius_new"
-				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
-					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -10546,8 +10553,8 @@
 		)
 	)
 	(symbol
-		(lib_id "#dzdb:g_res/R-10k-0402")
-		(at 204.47 41.91 0)
+		(lib_id "#dzdb:g_cap/C-100n-0201")
+		(at 185.42 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10555,9 +10562,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d75de632-3346-4571-b7a6-4d695f28453a")
-		(property "Reference" "R17"
-			(at 199.136 40.386 0)
+		(fields_autoplaced yes)
+		(uuid "d3edf05d-1e6c-47ea-8b56-73c4f0e08b07")
+		(property "Reference" "C17"
+			(at 189.23 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10567,8 +10575,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 199.136 42.926 0)
+		(property "Value" "100nF"
+			(at 189.23 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10578,8 +10586,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 202.692 41.91 90)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 186.3852 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10589,8 +10597,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2RKF1002X"
-			(at 204.47 41.91 0)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM033R61A104ME15%23"
+			(at 185.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10600,8 +10608,8 @@
 				)
 			)
 		)
-		(property "Description" "Res 10kΩ 0.1W 0402 Thick Film 1%"
-			(at 204.47 41.91 0)
+		(property "Description" "Cap 100nF 10V 0201 X5R ±20%"
+			(at 185.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10611,8 +10619,8 @@
 				)
 			)
 		)
-		(property "Power" "0.1W"
-			(at 204.47 41.91 0)
+		(property "LCSC" ""
+			(at 185.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10622,8 +10630,8 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
-			(at 204.47 41.91 0)
+		(property "Capacitance" "100nF"
+			(at 185.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10633,8 +10641,8 @@
 				)
 			)
 		)
-		(property "Resistance" "10k"
-			(at 204.47 41.91 0)
+		(property "Voltage" "10V"
+			(at 185.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10644,8 +10652,8 @@
 				)
 			)
 		)
-		(property "SPN" "667-ERJ-2RKF1002X"
-			(at 204.47 41.91 0)
+		(property "Tolerance" "20%"
+			(at 185.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10655,8 +10663,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C191123"
-			(at 204.47 41.91 0)
+		(property "SPN" "81-GRM033R61A104ME5D"
+			(at 185.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10666,8 +10674,19 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF1002X"
-			(at 204.47 41.91 0)
+		(property "IPN" "C-100n-0201"
+			(at 185.42 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM033R61A104ME15"
+			(at 185.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10678,7 +10697,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 204.47 41.91 0)
+			(at 185.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10688,8 +10707,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
-			(at 204.47 41.91 0)
+		(property "Manufacturer" "Murata"
+			(at 185.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10699,8 +10718,8 @@
 				)
 			)
 		)
-		(property "IPN" "R-10k-0402"
-			(at 204.47 41.91 0)
+		(property "Material" "X5R"
+			(at 185.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10710,19 +10729,8 @@
 				)
 			)
 		)
-		(property "Material" "Thick Film"
-			(at 204.47 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "lifecycle=Active; TCR=±100ppm/°C"
-			(at 204.47 41.91 0)
+		(property "Comment" "lifecycle=Active"
+			(at 185.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10733,15 +10741,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b63fb7f-ede4-4efe-89ac-2577b8bf9a96")
+			(uuid "61e0f293-1105-4943-8d80-f45f8a129509")
 		)
 		(pin "2"
-			(uuid "27774b30-703f-4be3-80ce-9f6b0b3a6d5f")
+			(uuid "12c3137e-1f01-4985-9199-231d6d4ee6d6")
 		)
 		(instances
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
-					(reference "R17")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -11026,8 +11034,8 @@
 		)
 	)
 	(symbol
-		(lib_id "#dzdb:g_res/R-10k-0402")
-		(at 212.09 41.91 0)
+		(lib_id "#dzdb:g_res/R-10K-0201")
+		(at 180.34 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11035,9 +11043,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ef45d57f-c55e-46d0-9dcc-fa5fc9e30c3a")
-		(property "Reference" "R11"
-			(at 206.756 40.386 0)
+		(fields_autoplaced yes)
+		(uuid "eaa18ebc-b58b-4743-9732-dfc47a7b5e9b")
+		(property "Reference" "R38"
+			(at 182.88 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11048,7 +11057,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 206.756 42.926 0)
+			(at 182.88 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11058,8 +11067,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 210.312 41.91 90)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 178.562 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11069,8 +11078,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2RKF1002X"
-			(at 212.09 41.91 0)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GJF1002C"
+			(at 180.34 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11080,8 +11089,8 @@
 				)
 			)
 		)
-		(property "Description" "Res 10kΩ 0.1W 0402 Thick Film 1%"
-			(at 212.09 41.91 0)
+		(property "Description" "Res 10 kΩ 0201 0.05W Thick Film ±1%"
+			(at 180.34 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11091,8 +11100,8 @@
 				)
 			)
 		)
-		(property "Power" "0.1W"
-			(at 212.09 41.91 0)
+		(property "Power" "0.05W"
+			(at 180.34 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11103,7 +11112,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 212.09 41.91 0)
+			(at 180.34 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11114,7 +11123,7 @@
 			)
 		)
 		(property "Resistance" "10k"
-			(at 212.09 41.91 0)
+			(at 180.34 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11124,8 +11133,8 @@
 				)
 			)
 		)
-		(property "SPN" "667-ERJ-2RKF1002X"
-			(at 212.09 41.91 0)
+		(property "SPN" "667-ERJ-1GJF1002C"
+			(at 180.34 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11135,8 +11144,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C191123"
-			(at 212.09 41.91 0)
+		(property "LCSC" "C20021044"
+			(at 180.34 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11146,8 +11155,8 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF1002X"
-			(at 212.09 41.91 0)
+		(property "MPN" "ERJ-1GJF1002C"
+			(at 180.34 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11158,7 +11167,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 212.09 41.91 0)
+			(at 180.34 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11169,7 +11178,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 212.09 41.91 0)
+			(at 180.34 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11179,8 +11188,8 @@
 				)
 			)
 		)
-		(property "IPN" "R-10k-0402"
-			(at 212.09 41.91 0)
+		(property "IPN" "R-10K-0201"
+			(at 180.34 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11191,7 +11200,7 @@
 			)
 		)
 		(property "Material" "Thick Film"
-			(at 212.09 41.91 0)
+			(at 180.34 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11201,8 +11210,8 @@
 				)
 			)
 		)
-		(property "Comment" "lifecycle=Active; TCR=±100ppm/°C"
-			(at 212.09 41.91 0)
+		(property "Comment" "lifecycle=Active;note=AEC-Q200 compliant;TCR=±200ppm/°C"
+			(at 180.34 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11213,15 +11222,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "dfee8431-7f1d-4cf7-90c7-e7f83640d36a")
+			(uuid "71b0d348-8f02-4c4f-905a-1896736f0c3d")
 		)
 		(pin "2"
-			(uuid "2cfd98f1-6984-457e-b114-2cb6eecc0df3")
+			(uuid "167640db-5848-4617-b9e0-91f0c0b657e4")
 		)
 		(instances
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
-					(reference "R11")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -11383,8 +11392,8 @@
 		)
 	)
 	(symbol
-		(lib_id "#dzdb:g_cap/C-100n-0603")
-		(at 40.64 45.72 0)
+		(lib_id "#dzdb:g_res/R-10K-0201")
+		(at 172.72 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11392,9 +11401,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fcf49921-a684-4cb8-8eb8-3b047f715edf")
-		(property "Reference" "C11"
-			(at 43.688 44.45 0)
+		(fields_autoplaced yes)
+		(uuid "f6e0c34c-f8cb-4fcb-9d0f-5edc0056cef1")
+		(property "Reference" "R28"
+			(at 175.26 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11404,8 +11414,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 43.434 46.736 0)
+		(property "Value" "10k"
+			(at 175.26 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11415,8 +11425,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 41.6052 49.53 0)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 170.942 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11426,8 +11436,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM188R71H104KA57J"
-			(at 40.64 45.72 0)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GJF1002C"
+			(at 172.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11437,8 +11447,8 @@
 				)
 			)
 		)
-		(property "Description" "Cap 100nF 50V 0603 X7R ±10%"
-			(at 40.64 45.72 0)
+		(property "Description" "Res 10 kΩ 0201 0.05W Thick Film ±1%"
+			(at 172.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11448,8 +11458,8 @@
 				)
 			)
 		)
-		(property "Tolerance" "10%"
-			(at 40.64 45.72 0)
+		(property "Power" "0.05W"
+			(at 172.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11459,8 +11469,8 @@
 				)
 			)
 		)
-		(property "Capacitance" "100nF"
-			(at 40.64 45.72 0)
+		(property "Tolerance" "1%"
+			(at 172.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11470,8 +11480,8 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
-			(at 40.64 45.72 0)
+		(property "Resistance" "10k"
+			(at 172.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11481,8 +11491,8 @@
 				)
 			)
 		)
-		(property "SPN" "81-GCM188R71H104KA7J"
-			(at 40.64 45.72 0)
+		(property "SPN" "667-ERJ-1GJF1002C"
+			(at 172.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11492,8 +11502,8 @@
 				)
 			)
 		)
-		(property "IPN" "C-100n-0603"
-			(at 40.64 45.72 0)
+		(property "LCSC" "C20021044"
+			(at 172.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11503,19 +11513,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
-			(at 40.64 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GCM188R71H104KA57"
-			(at 40.64 45.72 0)
+		(property "MPN" "ERJ-1GJF1002C"
+			(at 172.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11526,7 +11525,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 40.64 45.72 0)
+			(at 172.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11536,8 +11535,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 40.64 45.72 0)
+		(property "Manufacturer" "Panasonic"
+			(at 172.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11547,8 +11546,8 @@
 				)
 			)
 		)
-		(property "Material" "X7R"
-			(at 40.64 45.72 0)
+		(property "IPN" "R-10K-0201"
+			(at 172.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11558,8 +11557,19 @@
 				)
 			)
 		)
-		(property "Comment" "lifecycle=Active"
-			(at 40.64 45.72 0)
+		(property "Material" "Thick Film"
+			(at 172.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Comment" "lifecycle=Active;note=AEC-Q200 compliant;TCR=±200ppm/°C"
+			(at 172.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11570,15 +11580,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "82e33383-a14e-438d-94eb-d557bbab8a11")
+			(uuid "7d6edb28-e3dd-42f1-8530-29853a3494cb")
 		)
 		(pin "2"
-			(uuid "7ef604a1-c5f7-42cd-a938-a524000879fc")
+			(uuid "2802eadd-3b61-49a4-81ca-54796123c986")
 		)
 		(instances
 			(project "wius_new"
 				(path "/8543d6cf-82a6-4fc5-8760-a0773a1d6e4c/01c89e52-4206-4d65-8f45-b9ccd7362e08"
-					(reference "C11")
+					(reference "R28")
 					(unit 1)
 				)
 			)
