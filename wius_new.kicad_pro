@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -526,7 +526,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.52,
+        "clearance": 0.3,
         "name": "SPI_50OHM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
@@ -758,7 +758,7 @@
         "uuid": "8543d6cf-82a6-4fc5-8760-a0773a1d6e4c"
       }
     ],
-    "used_designators": "R13-14,R17,R20,R28,R31,R38-40,R61-63,C6,C10-11,C15-18,C20-22,C25,C28,C30-32,C34-43",
+    "used_designators": "R13-14,R17,R20,R28,R31,R38-40,R55,R61-63,C6,C10-11,C15-18,C20-22,C25,C28,C30-32,C34-43",
     "variants": [
       {
         "name": "all_1v8"
