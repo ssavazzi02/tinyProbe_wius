@@ -8808,14 +8808,15 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 151.13 34.29 0)
+		(property "Value" "GND"
+			(at 153.67 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -15576,14 +15577,15 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 128.27 34.29 0)
+		(property "Value" "GND"
+			(at 130.81 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
