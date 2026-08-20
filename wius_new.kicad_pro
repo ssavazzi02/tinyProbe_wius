@@ -792,7 +792,7 @@
         "uuid": "8543d6cf-82a6-4fc5-8760-a0773a1d6e4c"
       }
     ],
-    "used_designators": "R13-14,R17,R20,R28,R31,R38-40,R55,R61-63,C6,C10-11,C15-18,C20-22,C25,C28,C30-32,C34-43",
+    "used_designators": "",
     "variants": [
       {
         "name": "all_1v8"

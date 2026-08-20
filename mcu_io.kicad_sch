@@ -3809,16 +3809,16 @@
 		(uuid "8a991fbf-33eb-4577-acbd-bb729b950098")
 	)
 	(no_connect
+		(at 227.33 78.74)
+		(uuid "02b07697-ee7b-4703-a560-21c633a5ad8a")
+	)
+	(no_connect
 		(at 55.88 114.3)
 		(uuid "04409240-5724-41d1-bc72-ad45988ec4d6")
 	)
 	(no_connect
 		(at 102.87 99.06)
 		(uuid "38a657b2-4305-4a66-8abd-4b6b10376ba9")
-	)
-	(no_connect
-		(at 96.52 101.6)
-		(uuid "6a27f7d8-ae2d-4951-a827-8500243d9d78")
 	)
 	(no_connect
 		(at 55.88 96.52)
@@ -4140,7 +4140,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 78.74) (xy 227.33 78.74)
+			(xy 105.41 101.6) (xy 96.52 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4931,7 +4931,7 @@
 	)
 	(hierarchical_label "INT_SD"
 		(shape bidirectional)
-		(at 236.22 78.74 0)
+		(at 105.41 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
