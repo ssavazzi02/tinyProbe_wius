@@ -78,15 +78,7 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|158105000|87095000|d3f1967e-2eaa-4549-82ca-ac2742b14205|eb6b2e41-e352-4cb1-be44-fa0c8c38f356",
-          ""
-        ],
-        [
-          "unconnected_items|151550000|86925000|F.Cu|4|23cb867b-d8ae-4582-a658-b59c5120ac15|b5358bc2-223f-494b-a177-8415a32bb3ad",
-          ""
-        ],
-        [
-          "unconnected_items|158550000|86925000|F.Cu|4|75551f04-66a8-4c34-b9d6-27c467e9e045|99b3e203-00d2-48b1-b87a-0107891e71c0",
+          "clearance|154550000|95400000|c8c7803c-04d6-42db-9975-23b6e1fdfde6|da7b7d8c-2ad7-445a-90b3-9baaf110d85b",
           ""
         ]
       ],
@@ -175,7 +167,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.25,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
